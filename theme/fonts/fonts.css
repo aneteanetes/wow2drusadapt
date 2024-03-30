@@ -1,11 +1,11 @@
-h1 {
+h1, h2, h3, h4 {
   font-family: 'Fritz Quadrata Cyrillic';
   font-style: normal;
   font-weight: 500;
   src: url('fritz-quadrata-cyrillic.woff2');
   font-display: swap;
 }
-p {
+p, li, main {
   font-family: 'Georgia';
   font-style: normal;
   font-size: 17px;
@@ -15,4 +15,8 @@ p {
   font-family: 'Fritz Quadrata Cyrillic';
   font-style: normal;
   font-size: 20px;
+}
+
+table td {
+	padding: 10px 20px 10px;
 }
