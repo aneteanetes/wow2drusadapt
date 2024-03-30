@@ -1,0 +1,18 @@
+h1 {
+  font-family: 'Fritz Quadrata Cyrillic';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fritz-quadrata-cyrillic.woff2');
+  font-display: swap;
+}
+p {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-size: 17px;
+}
+
+#sidebar li {
+  font-family: 'Fritz Quadrata Cyrillic';
+  font-style: normal;
+  font-size: 20px;
+}

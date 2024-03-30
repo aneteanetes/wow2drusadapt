@@ -1,0 +1,9 @@
+[book]
+authors = ["anete.anetes"]
+language = "ru"
+multilingual = false
+src = "src"
+title = "World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация"
+
+[output.html]
+default-theme = "rust"
