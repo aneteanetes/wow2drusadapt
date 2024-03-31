@@ -1,13 +1,5 @@
 # Черты Обители Стихий 
 <div class="trait">
-  <div class="wow-icon" style="float:left">
-    <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
-      <ins style="background-image: url('../images/icons/Spell_Nature_ElementalPrecision_1.png');" class="">
-      </ins>  
-      <del>  
-      </del>
-    </div>
-  </div>
   <div class="wowhead-tooltip">
     <table class="wrap-table">
         <tbody>
@@ -17,6 +9,14 @@
                     <tbody>
                       <tr>
                           <td>
+  <div class="wow-icon" style="float:left">
+    <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
+      <ins style="background-image: url('../images/icons/Spell_Nature_ElementalPrecision_1.png');" class="">
+      </ins>  
+      <del>  
+      </del>
+    </div>
+  </div>
                             <span class="whtt-name" href="/ru/spell=382042/расколотые-стихии"><b class="whtt-name">Божественные силы</b></a>
                             <div class="subtype">Черта</div>
                           </td>
@@ -47,14 +47,7 @@
 </div>
 <hr class="spell-hr" />
 <div class="trait">
-  <div class="wow-icon" style="float:left">
-    <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
-      <ins style="background-image: url('../images/icons/INV_10_ElementalCombinedFoozles_Primordial.png');" class="">
-      </ins>  
-      <del>  
-      </del>
-    </div>
-  </div>
+  
   <div class="wowhead-tooltip">
     <table class="wrap-table">
         <tbody>
@@ -63,7 +56,14 @@
                 <table class="wow-tp-content-title-table" style="width: 100%;">
                     <tbody>
                       <tr>
-                          <td>
+                          <td><div class="wow-icon" style="float:left">
+    <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
+      <ins style="background-image: url('../images/icons/INV_10_ElementalCombinedFoozles_Primordial.png');" class="">
+      </ins>  
+      <del>  
+      </del>
+    </div>
+  </div>
                             <span class="whtt-name" href="/ru/spell=382042/расколотые-стихии"><b class="whtt-name">Господство Стихий</b></a>
                             <div class="subtype">Черта</div>
                           </td>
@@ -98,14 +98,7 @@
 </div>
 <hr class="spell-hr" />
 <div class="trait">
-  <div class="wow-icon" style="float:left">
-    <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
-      <ins style="background-image: url('../images/icons/INV_10_Enchanting2_ElementalSwirl_Color1.png');" class="">
-      </ins>  
-      <del>  
-      </del>
-    </div>
-  </div>
+  
   <div class="wowhead-tooltip">
     <table class="wrap-table">
         <tbody>
@@ -114,7 +107,14 @@
                 <table class="wow-tp-content-title-table" style="width: 100%;">
                     <tbody>
                       <tr>
-                          <td>
+                          <td><div class="wow-icon" style="float:left">
+    <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
+      <ins style="background-image: url('../images/icons/INV_10_Enchanting2_ElementalSwirl_Color1.png');" class="">
+      </ins>  
+      <del>  
+      </del>
+    </div>
+  </div>
                             <span class="whtt-name" href="/ru/spell=382042/расколотые-стихии"><b class="whtt-name">Великая сила стихий</b></a>
                             <div class="subtype">Черта</div>
                           </td>
