@@ -7,3 +7,4 @@ title = "World of Warcraft The Roreplay Game 2d Edition - Русскоязычн
 
 [output.html]
 default-theme = "rust"
+additional-css = ["./theme/css/plates.css"]
