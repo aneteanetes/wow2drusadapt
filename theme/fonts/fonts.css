@@ -2,7 +2,7 @@ h1, h2, h3, h4 {
   font-family: 'Fritz Quadrata Cyrillic';
   font-style: normal;
   font-weight: 500;
-  src: url('fritz-quadrata-cyrillic.woff2');
+  src: url('./fonts/fritz-quadrata-cyrillic.woff2');
   font-display: swap;
 }
 p, li, main {
