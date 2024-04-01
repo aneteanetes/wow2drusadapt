@@ -33,7 +33,7 @@ for (var i = 0; i < plates.length; i++) {
                         <tr>
                             <td>
                               <div class="text">
-                                ${plates[i].innerText} <br>
+                                ${plates[i].innerHTML} <br>
                               </div>
                             </td>
                         </tr>
@@ -52,7 +52,6 @@ for (var i = 0; i < plates.length; i++) {
   </div>`
   let plate = plates[i];
   links.push({ plate, traitDiv});
-  //plates[i].replaceWith(traitDiv);
 }
 links.forEach(link=>{
   link.plate.replaceWith(link.traitDiv);
