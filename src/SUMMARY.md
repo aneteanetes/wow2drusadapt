@@ -36,8 +36,8 @@
       - [Черты изумрудного сна](./cosmology/emeralddreamtraits.md)
    - [Запределье](./cosmology/outland.md)
       - [Черты запределья](./cosmology/outlandtraits.md)
-   - [Круговерть пустоты]()
-      - [Черты круговерти пустоты]()
+   - [Круговерть пустоты](./cosmology/twistingnether.md)
+      - [Черты круговерти пустоты](./cosmology/twistingnethertraits.md)
 	  
 	  
 	  
