@@ -38,6 +38,19 @@
       - [Черты запределья](./cosmology/outlandtraits.md)
    - [Круговерть пустоты](./cosmology/twistingnether.md)
       - [Черты круговерти пустоты](./cosmology/twistingnethertraits.md)
+
+- [Герои](./heroes/characters.md)
+   - [Характеристики](./heroes/abilities.md)
+      - [Сила](./heroes/abilities/str.md)
+      - [Ловкость](./heroes/abilities/agi.md)
+      - [Выносливость](./heroes/abilities/sta.md)
+      - [Интеллект](./heroes/abilities/int.md)
+      - [Харизма](./heroes/abilities/cha.md)
+      - [Дух](./heroes/abilities/spt.md)
+
+- [Таблицы](./tables/index.md)
+   - [1-1: Модификаторы Характеристик](./tables/1-1.md)
+   - [1-2: Дополнительные заклинания](./tables/1-2.md)
 	  
 	  
 	  
