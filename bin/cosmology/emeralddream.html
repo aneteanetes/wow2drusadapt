@@ -1,0 +1,440 @@
+<!DOCTYPE HTML>
+<html lang="ru" class="rust sidebar-visible" dir="ltr">
+<head>
+    <!-- Book generated using (almost) mdBook -->
+    <meta charset="UTF-8">
+    <title>Изумрудный сон - World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" href="./../images/favicon.svg">
+    <link rel="stylesheet" href="./../css/variables.css">
+    <link rel="stylesheet" href="./../css/general.css">
+    <link rel="stylesheet" href="./../css/chrome.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./../FontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./../fonts/fonts.css">
+
+    <!-- Highlight.js Stylesheets -->
+    <link rel="stylesheet" href="./../highlight.css">
+    <link rel="stylesheet" href="./../tomorrow-night.css">
+    <link rel="stylesheet" href="./../ayu-highlight.css">
+
+    <!-- Custom theme stylesheets -->
+    <link rel="stylesheet" href="./../\css\fonts.css">
+    <link rel="stylesheet" href="./../\css\plates.css">
+    <!-- Extensions stylesheets -->
+    <link rel="stylesheet" href="./../dices\dices.css">
+
+    <!-- Provide site root to javascript -->
+    <script>
+            var path_to_root = "./../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "" : "rust";
+    </script>
+</head>
+    <body>
+        <div id="body-container">
+            <!-- Work around some values being stored in localStorage wrapped in quotes -->
+            <script>
+                try {
+                    var theme = localStorage.getItem('mdbook-theme');
+                    var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                    if (theme.startsWith('"') && theme.endsWith('"')) {
+                        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                    }
+
+                    if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                        localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                    }
+                } catch (e) { }
+            </script>
+
+            <!-- Set the theme before any content is loaded, prevents flash -->
+            <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+            </script>
+
+            <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+            <!-- Hide / unhide sidebar before it is displayed -->
+            <script>
+                var sidebar = null;
+                var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+                if (document.body.clientWidth >= 1080) {
+                    try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch (e) { }
+                    sidebar = sidebar || 'visible';
+                } else {
+                    sidebar = 'hidden';
+                }
+                sidebar_toggle.checked = sidebar === 'visible';
+                html.classList.remove('sidebar-visible');
+                html.classList.add("sidebar-" + sidebar);
+            </script>
+
+            <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+                <!-- populated by js -->
+                <div class="sidebar-scrollbox">
+                    <ol class="chapter">
+                        <li class="chapter-item expanded ">
+    <a href=".\..\adapt.html" class="">
+         &#1040;&#1076;&#1072;&#1087;&#1090;&#1072;&#1094;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\main.html" class="">
+        <strong aria-hidden="true">1.</strong>
+         WoW RP 2ed
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\prelude\hog.html" class="">
+        <strong aria-hidden="true">1.1.</strong>
+         &#1058;&#1091;&#1084;&#1072;&#1085; &#1074;&#1086;&#1081;&#1085;&#1099; &#1088;&#1072;&#1089;&#1089;&#1077;&#1103;&#1085;!
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\prelude\inview.html" class="">
+        <strong aria-hidden="true">1.2.</strong>
+         &#1040;&#1074;&#1090;&#1086;&#1088;&#1099; &#1080; &#1073;&#1083;&#1072;&#1075;&#1086;&#1076;&#1072;&#1088;&#1085;&#1086;&#1089;&#1090;&#1080;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\common\common.html" class="">
+        <strong aria-hidden="true">2.</strong>
+         &#1054;&#1073;&#1097;&#1072;&#1103; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\common\inbook.html" class="">
+        <strong aria-hidden="true">2.1.</strong>
+         &#1063;&#1090;&#1086; &#1074; &#1101;&#1090;&#1086;&#1081; &#1082;&#1085;&#1080;&#1075;&#1077;?
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\common\whatneeds.html" class="">
+        <strong aria-hidden="true">2.2.</strong>
+         &#1063;&#1090;&#1086; &#1077;&#1097;&#1105; &#1085;&#1091;&#1078;&#1085;&#1086;?
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\common\2ed.html" class="">
+        <strong aria-hidden="true">2.3.</strong>
+         &#1042;&#1090;&#1086;&#1088;&#1072;&#1103; &#1088;&#1077;&#1076;&#1072;&#1082;&#1094;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\common\basic.html" class="">
+        <strong aria-hidden="true">2.4.</strong>
+         &#1054;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1077; &#1087;&#1086;&#1085;&#1103;&#1090;&#1080;&#1103;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\charcreate\creating.html" class="">
+        <strong aria-hidden="true">3.</strong>
+         &#1057;&#1086;&#1079;&#1076;&#1072;&#1085;&#1080;&#1077; &#1087;&#1077;&#1088;&#1089;&#1086;&#1085;&#1072;&#1078;&#1077;&#1081;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\history\personalities.html" class="">
+        <strong aria-hidden="true">4.</strong>
+         &#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1103; &#1080; &#1083;&#1080;&#1095;&#1085;&#1086;&#1089;&#1090;&#1080;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\history\novadays.html" class="">
+        <strong aria-hidden="true">4.1.</strong>
+         &#1058;&#1077;&#1082;&#1091;&#1097;&#1077;&#1077; &#1074;&#1088;&#1077;&#1084;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\history\timeline.html" class="">
+        <strong aria-hidden="true">4.2.</strong>
+         &#1057;&#1086;&#1073;&#1099;&#1090;&#1080;&#1103; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1081; &#1083;&#1080;&#1085;&#1080;&#1080;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\geography\geo.html" class="">
+        <strong aria-hidden="true">5.</strong>
+         &#1043;&#1077;&#1086;&#1075;&#1088;&#1072;&#1092;&#1080;&#1103;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\geography\mood.html" class="">
+        <strong aria-hidden="true">5.1.</strong>
+         &#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1077;&#1085;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\patri.html" class="">
+        <strong aria-hidden="true">5.2.</strong>
+         &#1055;&#1072;&#1090;&#1088;&#1080;&#1086;&#1090;&#1080;&#1079;&#1084;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\world.html" class="">
+        <strong aria-hidden="true">5.3.</strong>
+         &#1052;&#1080;&#1088; &#1074;&#1072;&#1088;&#1082;&#1088;&#1072;&#1092;&#1090;&#1072;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\azeroth.html" class="">
+        <strong aria-hidden="true">5.4.</strong>
+         &#1040;&#1079;&#1077;&#1088;&#1086;&#1090;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\kazmodan.html" class="">
+        <strong aria-hidden="true">5.5.</strong>
+         &#1050;&#1072;&#1079;'&#1052;&#1086;&#1076;&#1072;&#1085;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\kalimdor.html" class="">
+        <strong aria-hidden="true">5.6.</strong>
+         &#1050;&#1072;&#1083;&#1080;&#1084;&#1076;&#1086;&#1088;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\loarderon.html" class="">
+        <strong aria-hidden="true">5.7.</strong>
+         &#1051;&#1086;&#1088;&#1076;&#1077;&#1088;&#1086;&#1085;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\maelstorm.html" class="">
+        <strong aria-hidden="true">5.8.</strong>
+         &#1042;&#1086;&#1076;&#1086;&#1074;&#1086;&#1088;&#1086;&#1090;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\northrend.html" class="">
+        <strong aria-hidden="true">5.9.</strong>
+         &#1053;&#1086;&#1088;&#1076;&#1089;&#1082;&#1086;&#1083;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\geography\kaeltalas.html" class="">
+        <strong aria-hidden="true">5.10.</strong>
+         &#1050;&#1077;&#1083;&#1100;'&#1058;&#1072;&#1083;&#1072;&#1089;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\planes.html" class="">
+        <strong aria-hidden="true">6.</strong>
+         &#1050;&#1086;&#1089;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\elementalplane.html" class="">
+        <strong aria-hidden="true">6.1.</strong>
+         &#1054;&#1073;&#1080;&#1090;&#1077;&#1083;&#1100; &#1089;&#1090;&#1080;&#1093;&#1080;&#1081;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\elementalplanetraits.html" class="">
+        <strong aria-hidden="true">6.1.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1086;&#1073;&#1080;&#1090;&#1077;&#1083;&#1080; &#1089;&#1090;&#1080;&#1093;&#1080;&#1081;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href="../cosmology/emeralddream.html" class="active">
+        <strong aria-hidden="true">6.2.</strong>
+         &#1048;&#1079;&#1091;&#1084;&#1088;&#1091;&#1076;&#1085;&#1099;&#1081; &#1089;&#1086;&#1085;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\emeralddreamtraits.html" class="">
+        <strong aria-hidden="true">6.2.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1080;&#1079;&#1091;&#1084;&#1088;&#1091;&#1076;&#1085;&#1086;&#1075;&#1086; &#1089;&#1085;&#1072;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\outland.html" class="">
+        <strong aria-hidden="true">6.3.</strong>
+         &#1047;&#1072;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1100;&#1077;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\outlandtraits.html" class="">
+        <strong aria-hidden="true">6.3.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1079;&#1072;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1100;&#1103;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\twistingnether.html" class="">
+        <strong aria-hidden="true">6.4.</strong>
+         &#1050;&#1088;&#1091;&#1075;&#1086;&#1074;&#1077;&#1088;&#1090;&#1100; &#1087;&#1091;&#1089;&#1090;&#1086;&#1090;&#1099;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\twistingnethertraits.html" class="">
+        <strong aria-hidden="true">6.4.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1082;&#1088;&#1091;&#1075;&#1086;&#1074;&#1077;&#1088;&#1090;&#1080; &#1087;&#1091;&#1089;&#1090;&#1086;&#1090;&#1099;
+    </a>
+</li></ol></li></ol></li><li class="chapter-item expanded affix ">
+<li class="part-title">&#1063;&#1072;&#1089;&#1090;&#1100; 1: &#1043;&#1077;&#1088;&#1086;&#1080;</li><li class="spacer"></li><li class="chapter-item expanded ">
+    <a href=".\..\heroes\characters.html" class="">
+        <strong aria-hidden="true">8.</strong>
+         &#1043;&#1077;&#1088;&#1086;&#1080;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\heroes\abilities.html" class="">
+        <strong aria-hidden="true">8.1.</strong>
+         &#1061;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1080;
+    </a>
+</li></ol></li><li class="chapter-item expanded affix ">
+<li class="part-title">&#1063;&#1072;&#1089;&#1090;&#1100; 7: &#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099;</li><li class="spacer"></li><li class="chapter-item expanded ">
+    <a href=".\..\tables\index.html" class="">
+        <strong aria-hidden="true">10.</strong>
+         &#1058;&#1072;&#1073;&#1083;&#1080;&#1094;&#1099;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-1.html" class="">
+        <strong aria-hidden="true">10.1.</strong>
+         1-1: &#1052;&#1086;&#1076;&#1080;&#1092;&#1080;&#1082;&#1072;&#1090;&#1086;&#1088;&#1099; &#1061;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-2.html" class="">
+        <strong aria-hidden="true">10.2.</strong>
+         1-2: &#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1079;&#1072;&#1082;&#1083;&#1080;&#1085;&#1072;&#1085;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-3.html" class="">
+        <strong aria-hidden="true">10.3.</strong>
+         1-3: &#1043;&#1088;&#1091;&#1079;&#1086;&#1087;&#1086;&#1076;&#1098;&#1105;&#1084;&#1085;&#1086;&#1089;&#1090;&#1100;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-3.1.html" class="">
+        <strong aria-hidden="true">10.3.1.</strong>
+         1-3.1: &#1056;&#1072;&#1079;&#1084;&#1077;&#1088;&#1099;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-4.html" class="">
+        <strong aria-hidden="true">10.4.</strong>
+         1-4: &#1053;&#1072;&#1075;&#1088;&#1091;&#1079;&#1082;&#1072;
+    </a>
+</li>
+                    </ol>
+                </div>
+                <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                    <div class="sidebar-resize-indicator"></div>
+                </div>
+            </nav>
+
+            <!-- Track and set sidebar scroll position -->
+            <script>
+                var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+                sidebarScrollbox.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A') {
+                        sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                    }
+                }, { passive: true });
+                var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+                sessionStorage.removeItem('sidebar-scroll');
+                if (sidebarScrollTop) {
+                    // preserve sidebar scroll position when navigating via links within sidebar
+                    sidebarScrollbox.scrollTop = sidebarScrollTop;
+                } else {
+                    // scroll sidebar to current active section when navigating via "next/Назад" buttons
+                    var activeSection = document.querySelector('#sidebar .active');
+                    if (activeSection) {
+                        activeSection.scrollIntoView({ block: 'center' });
+                    }
+                }
+            </script>
+
+            <div id="page-wrapper" class="page-wrapper">
+
+                <div class="page">
+                    <div id="menu-bar-hover-placeholder"></div>
+                    <div id="menu-bar" class="menu-bar sticky">
+                        <div class="left-buttons">
+                            <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Содержание" aria-label="Содержание" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </label>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Тема" aria-label="Тема" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Светлая</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Тёмная</button></li>
+                                <!--<li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>-->
+                            </ul>
+                            <button id="search-toggle" class="icon-button" type="button" title="Поиск (ctrl+f)" aria-label="Поиск" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+
+                        <h1 class="menu-title">Изумрудный сон - World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация</h1>
+
+                        <div class="right-buttons">
+                        </div>
+                    </div>
+
+                    <div id="search-wrapper" class="hidden">
+                        <form id="searchbar-outer" class="searchbar-outer">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Искать в правилах..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        </form>
+                        <div id="searchresults-outer" class="searchresults-outer hidden">
+                            <div id="searchresults-header" class="searchresults-header"></div>
+                            <ul id="searchresults">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                    <script>
+                        document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                        document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                        Array.from(document.querySelectorAll('#sidebar a')).forEach(function (link) {
+                            link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                        });
+                    </script>
+
+                    <div id="content" class="content">
+                        <main>
+                            <h1 id="Изумрудный-сон"><a class="header" href="#Изумрудный-сон">Изумрудный сон</a></h1>
+<p>Первобытный не тронутый мир, Изумрудный сон представляет собой каким мог быть Азерот если бы его не населяли разумные существа. Этот мир показывает своим посетителям как выглядели бы не тронутые леса, не возделываемые прерии, не тронутые реки, и не построенные города. Зелёные леса простираются далеко во всех направлениях, холмы и горы имитируют оригинальный ландшафт Азерота.
+Изумрудный сон и Азерот квази-дубликаты<a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a> друг-друга, Изумрудный сон это Азерот сквозь волшебную линзу. Горы Азерота находятся на том же месте что и в Изумрудном сне; но там, где стоит людской мегаполис, в Зелёном Сне<a id="fnref:2" href="#fn:2" class="footnote-ref"><sup>2</sup></a> раскинулось пышное поле, свободное от искусственных строений.
+Существа с Азерота постоянно посещают Изумрудный сон, даже если и не подозревают об этом. Спящие попадают сюда и их посещают пророческие видения. Друиды попадают в этот план за счёт свой тесной связи с природой. Попасть в Изумрудный сон можно, используя магию, но тогда местные будут считать вас нарушителями.
+Природа в Изумрудном сне находится в превосходном балансе. Животные всех видов населяют этот мир, включая тех, которые не имели шанса на выживание в Азероте. Здесь можно найти множество волшебных существ, таких как феи, дриады, и хранители рощи.
+Эти владения принадлежат Изере, могущественному зелёному дракону – Аспекту. Она и её стая следят за неприкосновенностью этого райского плана. При всей чудесности Изумрудный сон таит в себе многие опасности. Те, кто посещают его во снах не нарушают природный баланс, но те, кто приносит сюда свою физическую оболочку, сталкиваются с подозрительностью и враждебностью.
+Здесь же можно найти и более тёмную силу, выросшую в глубине зелёных прерий – Изумрудный Кошмар. Это тёмная порча растёт из извращённых мыслей и страхов, спящих в Изумрудном сне. Кошмар медленно перемещается по Изумрудному сну оставляя за собой пятна порчи и путешественников, которые больше не смогут проснуться – Дремлющих<a id="fnref:3" href="#fn:3" class="footnote-ref"><sup>3</sup></a>. Никто, даже Изера, не знает почему Кошмар существует, и не знает почему он разрастается.</p>
+<div class="footnotes">
+<hr id=""><a class="header" href="#"></a></hr>
+<ol>
+<li id="fn:1">
+<p>В оригинале &quot;quasi-duplicates&quot;<a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Второе название Изумрудного сна (&quot;Emerald Dream&quot;, &quot;Green dream&quot;)<a href="#fnref:2" class="footnote-back-ref">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>&quot;Unwaking&quot; - нет локализованного аналога в World of Warcraft Dragonflight<a href="#fnref:3" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+                        </main>
+
+                        <nav class="nav-wrapper" aria-label="Page navigation">
+                            <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="./elementalplanetraits.html" class="mobile-nav-chapters previous" title="Назад" aria-label="Назад" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="./emeralddreamtraits.html" class="mobile-nav-chapters next" title="Вперёд" aria-label="Вперёд" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                            <div style="clear: both"></div>
+                        </nav>
+                    </div>
+                </div>
+
+                <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="./elementalplanetraits.html" class="nav-chapters previous" title="Назад" aria-label="Назад" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="./emeralddreamtraits.html" class="nav-chapters next" title="Вперёд" aria-label="Вперёд" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </nav>
+
+            </div>
+
+            <script src="./../elasticlunr.js"></script>
+            <script src="./../mark.js"></script>
+            <script>
+                window.search = {};
+            </script>
+            <script src="./../searchindex.js"></script>
+            <script src="./../searcher.js"></script>
+
+            <script src="./../clipboard.js"></script>
+            <script src="./../highlight.js"></script>
+            <script src="./../book.js"></script>
+
+            <!-- Custom JS scripts -->
+
+        </div>
+    </body>
+</html>

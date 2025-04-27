@@ -9,12 +9,12 @@
 ![Лордерон](../images/oldworld3.gif)
 
 ## Азерот и Каз'Модан
-![Азерот](../images/oldworld4.gif)
+![Азерот](../images/oldworl4.gif)
 
 ## Нортренд
 ![Нортренд](../images/oldworld5.gif)
 
 ## Затонувшие острова и Шахта[^undermine]
-![Затонувшие острова и Шахта](../images/oldworld6.gif)
+![Затонувшие острова и Шахта](../images/oldworl6.gif)
 
 [^undermine]: "Underminde" - название глубокой пропости под одним из островов.

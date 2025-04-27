@@ -1,4 +1,4 @@
-# Summary
+# World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация
 [Адаптация](./adapt.md)
 
 - [WoW RP 2ed](./main.md)
@@ -10,13 +10,13 @@
    - [Что ещё нужно?](./common/whatneeds.md)
    - [Вторая редакция](./common/2ed.md)
    - [Основные понятия](./common/basic.md)
-   
+
 - [Создание персонажей](./charcreate/creating.md)
 
 - [История и личности](./history/personalities.md)
    - [Текущее время](./history/novadays.md)
    - [События временной линии](./history/timeline.md)
-   
+
 - [География](./geography/geo.md)
    - [Настроения](./geography/mood.md)
    - [Патриотизм](./geography/patri.md)
@@ -39,9 +39,15 @@
    - [Круговерть пустоты](./cosmology/twistingnether.md)
       - [Черты круговерти пустоты](./cosmology/twistingnethertraits.md)
 
+
+- [Часть 1: Герои]
+---
+
 - [Герои](./heroes/characters.md)
    - [Характеристики](./heroes/abilities.md)
 
+- [Часть 7: Материалы]
+---
 - [Таблицы](./tables/index.md)
    - [1-1: Модификаторы Характеристик](./tables/1-1.md)
    - [1-2: Дополнительные заклинания](./tables/1-2.md)

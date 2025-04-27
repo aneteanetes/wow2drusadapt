@@ -1,0 +1,459 @@
+<!DOCTYPE HTML>
+<html lang="ru" class="rust sidebar-visible" dir="ltr">
+<head>
+    <!-- Book generated using (almost) mdBook -->
+    <meta charset="UTF-8">
+    <title>Лордерон - World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" href="./../images/favicon.svg">
+    <link rel="stylesheet" href="./../css/variables.css">
+    <link rel="stylesheet" href="./../css/general.css">
+    <link rel="stylesheet" href="./../css/chrome.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./../FontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./../fonts/fonts.css">
+
+    <!-- Highlight.js Stylesheets -->
+    <link rel="stylesheet" href="./../highlight.css">
+    <link rel="stylesheet" href="./../tomorrow-night.css">
+    <link rel="stylesheet" href="./../ayu-highlight.css">
+
+    <!-- Custom theme stylesheets -->
+    <link rel="stylesheet" href="./../\css\fonts.css">
+    <link rel="stylesheet" href="./../\css\plates.css">
+    <!-- Extensions stylesheets -->
+    <link rel="stylesheet" href="./../dices\dices.css">
+
+    <!-- Provide site root to javascript -->
+    <script>
+            var path_to_root = "./../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "" : "rust";
+    </script>
+</head>
+    <body>
+        <div id="body-container">
+            <!-- Work around some values being stored in localStorage wrapped in quotes -->
+            <script>
+                try {
+                    var theme = localStorage.getItem('mdbook-theme');
+                    var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                    if (theme.startsWith('"') && theme.endsWith('"')) {
+                        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                    }
+
+                    if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                        localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                    }
+                } catch (e) { }
+            </script>
+
+            <!-- Set the theme before any content is loaded, prevents flash -->
+            <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+            </script>
+
+            <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+            <!-- Hide / unhide sidebar before it is displayed -->
+            <script>
+                var sidebar = null;
+                var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+                if (document.body.clientWidth >= 1080) {
+                    try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch (e) { }
+                    sidebar = sidebar || 'visible';
+                } else {
+                    sidebar = 'hidden';
+                }
+                sidebar_toggle.checked = sidebar === 'visible';
+                html.classList.remove('sidebar-visible');
+                html.classList.add("sidebar-" + sidebar);
+            </script>
+
+            <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+                <!-- populated by js -->
+                <div class="sidebar-scrollbox">
+                    <ol class="chapter">
+                        <li class="chapter-item expanded ">
+    <a href=".\..\adapt.html" class="">
+         &#1040;&#1076;&#1072;&#1087;&#1090;&#1072;&#1094;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\main.html" class="">
+        <strong aria-hidden="true">1.</strong>
+         WoW RP 2ed
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\prelude\hog.html" class="">
+        <strong aria-hidden="true">1.1.</strong>
+         &#1058;&#1091;&#1084;&#1072;&#1085; &#1074;&#1086;&#1081;&#1085;&#1099; &#1088;&#1072;&#1089;&#1089;&#1077;&#1103;&#1085;!
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\prelude\inview.html" class="">
+        <strong aria-hidden="true">1.2.</strong>
+         &#1040;&#1074;&#1090;&#1086;&#1088;&#1099; &#1080; &#1073;&#1083;&#1072;&#1075;&#1086;&#1076;&#1072;&#1088;&#1085;&#1086;&#1089;&#1090;&#1080;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\common\common.html" class="">
+        <strong aria-hidden="true">2.</strong>
+         &#1054;&#1073;&#1097;&#1072;&#1103; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\common\inbook.html" class="">
+        <strong aria-hidden="true">2.1.</strong>
+         &#1063;&#1090;&#1086; &#1074; &#1101;&#1090;&#1086;&#1081; &#1082;&#1085;&#1080;&#1075;&#1077;?
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\common\whatneeds.html" class="">
+        <strong aria-hidden="true">2.2.</strong>
+         &#1063;&#1090;&#1086; &#1077;&#1097;&#1105; &#1085;&#1091;&#1078;&#1085;&#1086;?
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\common\2ed.html" class="">
+        <strong aria-hidden="true">2.3.</strong>
+         &#1042;&#1090;&#1086;&#1088;&#1072;&#1103; &#1088;&#1077;&#1076;&#1072;&#1082;&#1094;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\common\basic.html" class="">
+        <strong aria-hidden="true">2.4.</strong>
+         &#1054;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1077; &#1087;&#1086;&#1085;&#1103;&#1090;&#1080;&#1103;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\charcreate\creating.html" class="">
+        <strong aria-hidden="true">3.</strong>
+         &#1057;&#1086;&#1079;&#1076;&#1072;&#1085;&#1080;&#1077; &#1087;&#1077;&#1088;&#1089;&#1086;&#1085;&#1072;&#1078;&#1077;&#1081;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\history\personalities.html" class="">
+        <strong aria-hidden="true">4.</strong>
+         &#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1103; &#1080; &#1083;&#1080;&#1095;&#1085;&#1086;&#1089;&#1090;&#1080;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\history\novadays.html" class="">
+        <strong aria-hidden="true">4.1.</strong>
+         &#1058;&#1077;&#1082;&#1091;&#1097;&#1077;&#1077; &#1074;&#1088;&#1077;&#1084;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\history\timeline.html" class="">
+        <strong aria-hidden="true">4.2.</strong>
+         &#1057;&#1086;&#1073;&#1099;&#1090;&#1080;&#1103; &#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1081; &#1083;&#1080;&#1085;&#1080;&#1080;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\geo.html" class="">
+        <strong aria-hidden="true">5.</strong>
+         &#1043;&#1077;&#1086;&#1075;&#1088;&#1072;&#1092;&#1080;&#1103;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\mood.html" class="">
+        <strong aria-hidden="true">5.1.</strong>
+         &#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1077;&#1085;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\patri.html" class="">
+        <strong aria-hidden="true">5.2.</strong>
+         &#1055;&#1072;&#1090;&#1088;&#1080;&#1086;&#1090;&#1080;&#1079;&#1084;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\world.html" class="">
+        <strong aria-hidden="true">5.3.</strong>
+         &#1052;&#1080;&#1088; &#1074;&#1072;&#1088;&#1082;&#1088;&#1072;&#1092;&#1090;&#1072;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\azeroth.html" class="">
+        <strong aria-hidden="true">5.4.</strong>
+         &#1040;&#1079;&#1077;&#1088;&#1086;&#1090;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\kazmodan.html" class="">
+        <strong aria-hidden="true">5.5.</strong>
+         &#1050;&#1072;&#1079;'&#1052;&#1086;&#1076;&#1072;&#1085;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\kalimdor.html" class="">
+        <strong aria-hidden="true">5.6.</strong>
+         &#1050;&#1072;&#1083;&#1080;&#1084;&#1076;&#1086;&#1088;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href="../geography/loarderon.html" class="active">
+        <strong aria-hidden="true">5.7.</strong>
+         &#1051;&#1086;&#1088;&#1076;&#1077;&#1088;&#1086;&#1085;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\maelstorm.html" class="">
+        <strong aria-hidden="true">5.8.</strong>
+         &#1042;&#1086;&#1076;&#1086;&#1074;&#1086;&#1088;&#1086;&#1090;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\northrend.html" class="">
+        <strong aria-hidden="true">5.9.</strong>
+         &#1053;&#1086;&#1088;&#1076;&#1089;&#1082;&#1086;&#1083;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\kaeltalas.html" class="">
+        <strong aria-hidden="true">5.10.</strong>
+         &#1050;&#1077;&#1083;&#1100;'&#1058;&#1072;&#1083;&#1072;&#1089;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\planes.html" class="">
+        <strong aria-hidden="true">6.</strong>
+         &#1050;&#1086;&#1089;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1103;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\elementalplane.html" class="">
+        <strong aria-hidden="true">6.1.</strong>
+         &#1054;&#1073;&#1080;&#1090;&#1077;&#1083;&#1100; &#1089;&#1090;&#1080;&#1093;&#1080;&#1081;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\elementalplanetraits.html" class="">
+        <strong aria-hidden="true">6.1.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1086;&#1073;&#1080;&#1090;&#1077;&#1083;&#1080; &#1089;&#1090;&#1080;&#1093;&#1080;&#1081;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\emeralddream.html" class="">
+        <strong aria-hidden="true">6.2.</strong>
+         &#1048;&#1079;&#1091;&#1084;&#1088;&#1091;&#1076;&#1085;&#1099;&#1081; &#1089;&#1086;&#1085;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\emeralddreamtraits.html" class="">
+        <strong aria-hidden="true">6.2.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1080;&#1079;&#1091;&#1084;&#1088;&#1091;&#1076;&#1085;&#1086;&#1075;&#1086; &#1089;&#1085;&#1072;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\outland.html" class="">
+        <strong aria-hidden="true">6.3.</strong>
+         &#1047;&#1072;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1100;&#1077;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\outlandtraits.html" class="">
+        <strong aria-hidden="true">6.3.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1079;&#1072;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1100;&#1103;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\twistingnether.html" class="">
+        <strong aria-hidden="true">6.4.</strong>
+         &#1050;&#1088;&#1091;&#1075;&#1086;&#1074;&#1077;&#1088;&#1090;&#1100; &#1087;&#1091;&#1089;&#1090;&#1086;&#1090;&#1099;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\cosmology\twistingnethertraits.html" class="">
+        <strong aria-hidden="true">6.4.1.</strong>
+         &#1063;&#1077;&#1088;&#1090;&#1099; &#1082;&#1088;&#1091;&#1075;&#1086;&#1074;&#1077;&#1088;&#1090;&#1080; &#1087;&#1091;&#1089;&#1090;&#1086;&#1090;&#1099;
+    </a>
+</li></ol></li></ol></li><li class="chapter-item expanded affix ">
+<li class="part-title">&#1063;&#1072;&#1089;&#1090;&#1100; 1: &#1043;&#1077;&#1088;&#1086;&#1080;</li><li class="spacer"></li><li class="chapter-item expanded ">
+    <a href=".\..\heroes\characters.html" class="">
+        <strong aria-hidden="true">8.</strong>
+         &#1043;&#1077;&#1088;&#1086;&#1080;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\heroes\abilities.html" class="">
+        <strong aria-hidden="true">8.1.</strong>
+         &#1061;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1080;
+    </a>
+</li></ol></li><li class="chapter-item expanded affix ">
+<li class="part-title">&#1063;&#1072;&#1089;&#1090;&#1100; 7: &#1052;&#1072;&#1090;&#1077;&#1088;&#1080;&#1072;&#1083;&#1099;</li><li class="spacer"></li><li class="chapter-item expanded ">
+    <a href=".\..\tables\index.html" class="">
+        <strong aria-hidden="true">10.</strong>
+         &#1058;&#1072;&#1073;&#1083;&#1080;&#1094;&#1099;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-1.html" class="">
+        <strong aria-hidden="true">10.1.</strong>
+         1-1: &#1052;&#1086;&#1076;&#1080;&#1092;&#1080;&#1082;&#1072;&#1090;&#1086;&#1088;&#1099; &#1061;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-2.html" class="">
+        <strong aria-hidden="true">10.2.</strong>
+         1-2: &#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1077; &#1079;&#1072;&#1082;&#1083;&#1080;&#1085;&#1072;&#1085;&#1080;&#1103;
+    </a>
+</li><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-3.html" class="">
+        <strong aria-hidden="true">10.3.</strong>
+         1-3: &#1043;&#1088;&#1091;&#1079;&#1086;&#1087;&#1086;&#1076;&#1098;&#1105;&#1084;&#1085;&#1086;&#1089;&#1090;&#1100;
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-3.1.html" class="">
+        <strong aria-hidden="true">10.3.1.</strong>
+         1-3.1: &#1056;&#1072;&#1079;&#1084;&#1077;&#1088;&#1099;
+    </a>
+</li></ol></li><li class="chapter-item expanded ">
+    <a href=".\..\tables\1-4.html" class="">
+        <strong aria-hidden="true">10.4.</strong>
+         1-4: &#1053;&#1072;&#1075;&#1088;&#1091;&#1079;&#1082;&#1072;
+    </a>
+</li>
+                    </ol>
+                </div>
+                <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                    <div class="sidebar-resize-indicator"></div>
+                </div>
+            </nav>
+
+            <!-- Track and set sidebar scroll position -->
+            <script>
+                var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+                sidebarScrollbox.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A') {
+                        sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                    }
+                }, { passive: true });
+                var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+                sessionStorage.removeItem('sidebar-scroll');
+                if (sidebarScrollTop) {
+                    // preserve sidebar scroll position when navigating via links within sidebar
+                    sidebarScrollbox.scrollTop = sidebarScrollTop;
+                } else {
+                    // scroll sidebar to current active section when navigating via "next/Назад" buttons
+                    var activeSection = document.querySelector('#sidebar .active');
+                    if (activeSection) {
+                        activeSection.scrollIntoView({ block: 'center' });
+                    }
+                }
+            </script>
+
+            <div id="page-wrapper" class="page-wrapper">
+
+                <div class="page">
+                    <div id="menu-bar-hover-placeholder"></div>
+                    <div id="menu-bar" class="menu-bar sticky">
+                        <div class="left-buttons">
+                            <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Содержание" aria-label="Содержание" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </label>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Тема" aria-label="Тема" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Светлая</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Тёмная</button></li>
+                                <!--<li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>-->
+                            </ul>
+                            <button id="search-toggle" class="icon-button" type="button" title="Поиск (ctrl+f)" aria-label="Поиск" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+
+                        <h1 class="menu-title">Лордерон - World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация</h1>
+
+                        <div class="right-buttons">
+                        </div>
+                    </div>
+
+                    <div id="search-wrapper" class="hidden">
+                        <form id="searchbar-outer" class="searchbar-outer">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Искать в правилах..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        </form>
+                        <div id="searchresults-outer" class="searchresults-outer hidden">
+                            <div id="searchresults-header" class="searchresults-header"></div>
+                            <ul id="searchresults">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                    <script>
+                        document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                        document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                        Array.from(document.querySelectorAll('#sidebar a')).forEach(function (link) {
+                            link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                        });
+                    </script>
+
+                    <div id="content" class="content">
+                        <main>
+                            <h1 id="Лордерон"><a class="header" href="#Лордерон">Лордерон</a></h1>
+<p>Некогда бывшее людским королевством, сейчас разорённая и оспариваемая территория. Плеть преобладает на континенте, и её чума уменьшила плодовитые земли превратив их в проклятые серые равнины. Кель’Талас, древние земли высших эльфов опустошены и заполнены призраками. Несколько поселений людей выстояли, но их обитатели отчаиваются и сдаются. Их врагов не счётное количество: Плеть, огры, мурлоки, разбойники, все сталкиваются, друг с другом убивая всё больше невинных. Лесные тролли наступают с юга, из Зул’Амана, используя сложившийся хаос что бы получить земли своей старой империи назад. Отрекшиеся, группа предателей плети, по-видимому, преданные Орде, проводят тёмные эксперименты под руинами замка Лордерон.</p>
+<h1 id="Даларан-(город,-население-3-000)"><a class="header" href="#Даларан-(город,-население-3-000)">Даларан (город, население 3 000)</a></h1>
+<p>Один из старейших городов людей принадлежавший Империи Аратора. Длительное время являлся центром магического обучения. Городом управляет конклав магов под названием Кирин-Тор, располагающийся в Аметистовой Цитадели. Нежить захватила город во время Третьей Войны, а их будущий командир, Архимонд, уничтожил город с помощью магии скверны.
+С концом войны Плеть покинула руины города, и группа магов восстановила город спустя несколько месяцев. Теперь город окружён не прозрачным аметистовым барьером, защищающим Даларан. Ничто не может проникнуть сквозь него наружу, или внутрь. Архимаги патрулируют его границы, но купол достаточно силён что бы уничтожить любого приблизившегося достаточно близко.
+За барьером маги определенно работают над чем-то – но никто не может наверняка.</p>
+<h1 id="Стратхольм-(метрополия,-население-25-000)"><a class="header" href="#Стратхольм-(метрополия,-население-25-000)">Стратхольм (метрополия, население 25 000)</a></h1>
+<p>Столица Плети на Лордероне. Стратхольм город зла и тёмной магии.  Во время Третьей Войны падший Принц Артас разорил город, и вскоре Плеть полностью захватила его. Кел’Тузад заполонил людские руины некрополями и зданиями Плети, а над городом теперь вечно парит главный некрополь Плети – Наксрамас, выливающий нечистоты на улицы города. Плеть полностью контролирует город – нежить и некроманты патрулируют улицйы, а над городом летают гаргульи и морозные вирмы. Ядовитый оранжевый туман сочится из зданий и отравляет живых существ, превращая их в слуг Плети. Власть Кел’Тудаа абсолютна – отсюда он высылает армии нежити для подчинения ближайших земель.</p>
+<h1 id="Подгород-(метрополия,-население-13-000)"><a class="header" href="#Подгород-(метрополия,-население-13-000)">Подгород (метрополия, население 13 000)</a></h1>
+<p>Огромный подземный лабиринт на юге Тирисфальских Лесов, столица Отрекшихся. Город расположен под руинами Лордерона, и раскинулся в его подземельях. Отрекшиеся продолжают расширять свои владения: вырезают всё новые туннели и заполняют их туманом и пауками. Городом и Отрекшимися правит Королева Банши – Леди Сильвана Ветрокрылая. Повелитель ужаса Вариматрас и Фаранелл помогают ей. Последний является мастером-аптекарем Королевского фармацевтического общества, занимающее целый квартал перед покоями Королевы. Отрекшиеся сосредотачивают свои усилия на алхимии и разработке новых токсинов, болезней, и другом химическом мастерстве. Отрекшиеся презирают Плеть и номинально входят в состав Орды, но им нкто не доверяет, и кажется на то есть причины.</p>
+<h1 id="Альтеракские-горы"><a class="header" href="#Альтеракские-горы">Альтеракские горы</a></h1>
+<p>Край высоких гор и лесов, здесь часто идут дожди, а погода всегда пасмурная. огры клана Раздробленного Хребта и Синдикат – ослабленная группа людских разбойников, неоднократно сменяли друг друга в контроле этой территории.</p>
+<h1 id="Нагорье-Арати"><a class="header" href="#Нагорье-Арати">Нагорье Арати</a></h1>
+<p>Синдикат, огры клана Тяжелого Кулака, и осаждённые защитники Стромгарда ведут бесконечные сражения в этом сером и мрачном царстве. Принц Гален Троллебой ведёт защитников людей на поля сражений, где три коалиции ведут партизанскую войну. Семья Троллебоев владеет несколькими древними артефактами людей, а группа называемая «Дозорные<a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a>» защищает эту семью и охраняет самые важные из артефактов. На юге раскинулся Мост Тандола: массивная переправа возведённая дварфами, соединяющая Лордерон и Каз Модан через пролив.</p>
+<h1 id="Восточные-чумные-земли"><a class="header" href="#Восточные-чумные-земли">Восточные чумные земли</a></h1>
+<p>Плети здесь безгранична. Здесь же расположена их столица Стратхольм, управляемая Королём Личом. Земля отравлена и опустошена, деревья превратились в гигансткие болезненные грибы, а воздух отравлен туманом их оранжевых спор. В зарослях грибов располагаются некроманты, нежить, и проклятые культисты. Религиозные фанатики под названием Алый Орден тщетно противостоят Плети, а лесные тролли Зул’Амана с севера пытаются вернуть себе конфликтные земли.</p>
+<h1 id="Гилнеас"><a class="header" href="#Гилнеас">Гилнеас</a></h1>
+<p>Полуостров на юго-западе континента. Генн Седогрив правит этими землями со времён Второй Войны. Король Седогрив никогда не поддерживал Альянс, когда война закончилась, королевство оградилось от всего мира «Стеной Седовгрива» - необъятных размеров каменным барьером, который отделил полуостров от Лордерона. Беженцы и представители других народов пытались помочь королевству Гилнеас, но великая стена пуста – рядом не стоит охраны, а возле неё не ходит патрулей. Никто не видел представителей Гилнеаса уже десять лет.</p>
+<h1 id="Предгорья-Хилсбрада"><a class="header" href="#Предгорья-Хилсбрада">Предгорья Хилсбрада</a></h1>
+<p>Относительно безопасные, зелёные пасторальные земли. Почва здесь богата на минералы и полезные растения, а местные луга бесконечно плодородны. Местные представители людей лояльны к Альянсу, который борется за эти земли из города Южнобережья. Безмятежность людской жизни здесь мешает преступный Синдикат, мурлоки, и города занятые Отрекшимися на севере.</p>
+<h1 id="Внутренние-Земли"><a class="header" href="#Внутренние-Земли">Внутренние Земли</a></h1>
+<p>Любой подтвердит, что эти нетронутые зелёные леса прекрасны в своём спокойствии. Прекрасные леса предстают в своём первозданном виде благодаря клану дварфов Неистового Молота, обитающих в местной столице, Заоблачном Пике величественно возвышающимся над верхушками деревьев. Стая зелёных драконов охраняет Великое Дерево, проросший саженец Мирового дерева, являющегося порталом в Изумрудный Сон. Единственные недоброжелатели этих земель – два злобных племени лесных троллей.</p>
+<h1 id="Кул-Тирас"><a class="header" href="#Кул-Тирас">Кул Тирас</a></h1>
+<p>Остров расположенный между Лордероном и Азеротом, остающийся не захваченным. Кул Тирасу грозят наги, мурлоки, и пираты, но никто из них пока не смог пробиться в глубь острова. Верные Альянсу, на протяжении всего существования обладающие великолепным военным флотом, они помогали Альянсу во Второй Войне, и стали тем самым инструментом победы. В последнее время нацией правит Тандред Праудмур, последний оставшийся на острове: Джайна и её отец, Даэлин Праудмур отплыли на западный материк, оставив его одного. Тандред делает всё возможное, но обладает малыми ресурсами, и ещё меньшим количеством союзников.</p>
+<h1 id="Озеро-Лордамер"><a class="header" href="#Озеро-Лордамер">Озеро Лордамер</a></h1>
+<p>Необъёмных размеров озеро в центре Лордерона, соседствующее с пятью регионами, когда-то оно было источником свежей пресной воды и рыбы. Сейчас вода в озере отравлена, и мёртвую рыбу в больших количествах выбрасывает на берег.</p>
+<h1 id="Серебряный-бор"><a class="header" href="#Серебряный-бор">Серебряный бор</a></h1>
+<p>Дикие леса наполненные банши и приведениями. Отрекшиеся контролируют леса и постоянно сражаются с гноллами нежитью из стаи Гнилошкуров. Редкие группы людей пытаются выстоять против всех представителей нежити, но их поглощает отчаяние и в конце концов они пытаются выбраться отсюда. Даларан часто отправляет сюда экспедиции в надежде защитить местных и изучить проклятье воргенов – таинственный недуг, превращающий жертв в кровожадных ликантропов при свете луны.</p>
+<h1 id="Тирисфальские-леса"><a class="header" href="#Тирисфальские-леса">Тирисфальские леса</a></h1>
+<p>Регион, точно повторяющий природу Серебряного Бора, но полностью под контролем Отрекшихся. Магия Отрекшихся искривила эти земли; деревья приобрели болезненный фиолетовый оттенок и источают оранжевый туман, а небо затянуто зелёным туманом, из-за которого свет, продирающийся через него, выглядит не естественным для животных, притаившихся в плывущих туманах. Здесь находится несколько поселений Отрекшихся, включая их столицу Подгород.</p>
+<h1 id="Западные-чумные-земли"><a class="header" href="#Западные-чумные-земли">Западные чумные земли</a></h1>
+<p>Как и восточная часть, эти земли когда-то были плодородными зелёными лесами и лугами, но после заражения предстают пагубными и безжизненными. По всему региону бродит нежить и охотится на месте разорённых городов и ферм. Столица Плети здесь – Андорал, под руинами которого расположился комплекс школы некромантии Плети – Некроситет. Сумасшедший Алый Орден борется против Плети из расположенного на севере города Дольный Очаг. Единственное место здравомыслия здесь – Гробница Утера, священный памятник погибшему герою Утеру Светоносному.</p>
+<div class="footnotes">
+<hr id=""><a class="header" href="#"></a></hr>
+<ol>
+<li id="fn:1">
+<p>&quot;Caretakers&quot;<a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+                        </main>
+
+                        <nav class="nav-wrapper" aria-label="Page navigation">
+                            <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="./kalimdor.html" class="mobile-nav-chapters previous" title="Назад" aria-label="Назад" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="./maelstorm.html" class="mobile-nav-chapters next" title="Вперёд" aria-label="Вперёд" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                            <div style="clear: both"></div>
+                        </nav>
+                    </div>
+                </div>
+
+                <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="./kalimdor.html" class="nav-chapters previous" title="Назад" aria-label="Назад" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="./maelstorm.html" class="nav-chapters next" title="Вперёд" aria-label="Вперёд" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </nav>
+
+            </div>
+
+            <script src="./../elasticlunr.js"></script>
+            <script src="./../mark.js"></script>
+            <script>
+                window.search = {};
+            </script>
+            <script src="./../searchindex.js"></script>
+            <script src="./../searcher.js"></script>
+
+            <script src="./../clipboard.js"></script>
+            <script src="./../highlight.js"></script>
+            <script src="./../book.js"></script>
+
+            <!-- Custom JS scripts -->
+
+        </div>
+    </body>
+</html>
