@@ -3,3 +3,6 @@
 
 # Ссылка
 [Книга на github](https://anetegithub.github.io/wow2drusadapt/)
+
+# Разработка
+Сгенерировано с помощью [MdBookSharp](https://github.com/aneteanetes/mdbooksharp)
