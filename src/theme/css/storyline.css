@@ -36,6 +36,11 @@
     background-repeat: repeat;
 }
 
+.wowstorytable table tr td:nth-child(1) {
+    vertical-align: text-top;
+    text-align: center;
+}
+
 .wowstorytable::before {
     content: '';
     position: relative;

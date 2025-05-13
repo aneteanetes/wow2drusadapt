@@ -15,7 +15,7 @@
 
 - [История и личности](./history/personalities.md)
    - [Текущее время](./history/novadays.md)
-   - [События временной линии](./history/timeline.md)
+   - [Летопись](./history/timeline.md)
 
 - [География](./geography/geo.md)
    - [Настроения](./geography/mood.md)
@@ -45,6 +45,7 @@
 
 - [Герои](./heroes/characters.md)
    - [Характеристики](./heroes/abilities.md)
+   - [Народы](./heroes/nations.md)
 
 - [Часть 7: Материалы]
 ---
@@ -54,6 +55,7 @@
    - [1-3: Грузоподъёмность](./tables/1-3.md)
       - [1-3.1: Размеры](./tables/1-3.1.md)
    - [1-4: Нагрузка](./tables/1-4.md)
+   - [2-1: Модификаторы народов](./tables/2-1.md)
 	  
 	  
 	  
