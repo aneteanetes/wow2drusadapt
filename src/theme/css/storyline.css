@@ -1,0 +1,62 @@
+/* .wowstorytable {
+    background: url(../images/elements/wowscrolltop.png), url(../images/elements/wowscrollmid.png), url(../images/elements/wowscrollbot.png);
+    background-position: top, top 3% left 0, bottom;
+    background-size: 100%, 100% auto, 100%;
+    padding: 25px;
+    background-repeat: no-repeat, repeat-y, no-repeat;
+} */
+
+.wowstorytable table tbody tr:nth-child(2n) {
+    background: none;
+}
+
+.wowstorytable table thead {
+    background: none;
+}
+
+.wowstorytable table {
+    border: none;
+}
+
+.wowstorytable table tr {
+    border: none;
+}
+
+.wowstorytable table td {
+    border: none;
+}
+
+.wowstorytable {
+    padding-top: 5px;
+}
+
+.wowstorytable table {
+    background: url(../images/elements/wowscrollmid.png);
+    background-position: center;
+    background-size: 100%;
+    padding-top: 25px;
+    background-repeat: repeat;
+}
+
+.wowstorytable::before {
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    top: 2.3%;
+    display: block;
+    box-sizing: border-box;
+    background: url(../images/elements/wowscrolltop.png);
+    background-size: 100%;
+}
+
+.wowstorytable::after {
+    content: '';
+    position: relative;
+    height: 100px;
+    bottom: 0px;
+    display: block;
+    box-sizing: border-box;
+    background: url(../images/elements/wowscrollbot.png);
+    background-size: 100%;
+}

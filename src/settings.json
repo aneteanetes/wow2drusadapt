@@ -1,5 +1,5 @@
 {
-  "IsIncrementalBuild": false,
+  "IsIncrementalBuild": true,
   "SearchResultOptions": {
     "limit_results":15    
   },
