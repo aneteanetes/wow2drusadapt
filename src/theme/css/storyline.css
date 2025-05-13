@@ -50,10 +50,16 @@
 .wowstorytable::after {
     content: '';
     position: relative;
-    height: 100px;
+    height: 7vh;
     bottom: 0px;
     display: block;
     box-sizing: border-box;
     background: url(../images/elements/wowscrollbot.png);
     background-size: 100%;
+}
+
+@media (min-width: 700px) {
+    .wowstorytable::after {
+        height: 14vh;
+    }
 }
