@@ -46,6 +46,11 @@
 - [Герои](./heroes/characters.md)
    - [Характеристики](./heroes/abilities.md)
    - [Народы](./heroes/nations.md)
+      - [Дварфы Стальгорна](./heroes/dwarfes/dwarfes.md)
+         - [Черты дварфов](./heroes/dwarfes/dwarftraits.md)
+         - [Класс Дварф Стальгорна](./heroes/dwarfes/dwarfclass.md)
+      - [Высшие Эльфы](./heroes/highelves/highelves.md)
+         - [Черты высших эльфов](./heroes/highelves/highelvestraits.md)
 
 - [Часть 7: Материалы]
 ---
@@ -55,7 +60,7 @@
    - [1-3: Грузоподъёмность](./tables/1-3.md)
       - [1-3.1: Размеры](./tables/1-3.1.md)
    - [1-4: Нагрузка](./tables/1-4.md)
-   - [2-1: Модификаторы народов](./tables/2-1.md)
+   - [2-1: Модификаторы характеристик у народов](./tables/2-1.md)
 	  
 	  
 	  

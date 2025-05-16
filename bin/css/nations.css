@@ -1,0 +1,11 @@
+.nation-icons {
+    height: 68px;
+    display: flex;;
+    justify-content: center;
+} 
+
+.crest {
+    display: block;
+    margin: auto;
+    width: 50%;
+}

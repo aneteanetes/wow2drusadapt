@@ -1,11 +1,16 @@
 #searchresults a,
 .content a:link,
 a:visited,
-a > .hljs {
+a>.hljs {
     color: #e69f67;
 }
 
+.wowplate-header {
+    margin-bottom: 0.5rem;
+}
+
 .wowhead-tooltip {
+    margin-bottom: 1.33em;
     --d4Tooltip-bulletOffset: .1em;
     --d4Tooltip-bulletHeight: 1.25em;
     --d4Tooltip-bulletWidth: 1em;
@@ -14,7 +19,7 @@ a > .hljs {
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     color: #bbb;
@@ -32,7 +37,7 @@ a > .hljs {
 }
 
 .wowhead-tooltip .wrap-table {
-	    --d4Tooltip-bulletOffset: .1em;
+    --d4Tooltip-bulletOffset: .1em;
     --d4Tooltip-bulletHeight: 1.25em;
     --d4Tooltip-bulletWidth: 1em;
     --d4Tooltip-listPadding: 1.25em;
@@ -40,7 +45,7 @@ a > .hljs {
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     color: #bbb;
@@ -51,30 +56,30 @@ a > .hljs {
     border-spacing: 0;
     border-collapse: collapse;
     margin: 0;
-    border: 0 !important;    
+    border: 0 !important;
     width: 100%;
 }
 
 .wrap-table .tbody {
---d4Tooltip-bulletOffset: .1em;
---d4Tooltip-bulletHeight: 1.25em;
---d4Tooltip-bulletWidth: 1em;
---d4Tooltip-listPadding: 1.25em;
---d4Tooltip-bulletPosition: absolute;
---d4Tooltip-bulletLeft: -1.25em;
---textBadge-horizontalGap: 50px;
--webkit-text-size-adjust: 100%;
-font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
-cursor: auto;
-pointer-events: auto;
-color: #bbb;
-line-height: 1.4;
-visibility: visible;
-border-spacing: 0;
-border-collapse: collapse;
-outline: none;
-max-height: 1000000px;
-border: 0 !important;
+    --d4Tooltip-bulletOffset: .1em;
+    --d4Tooltip-bulletHeight: 1.25em;
+    --d4Tooltip-bulletWidth: 1em;
+    --d4Tooltip-listPadding: 1.25em;
+    --d4Tooltip-bulletPosition: absolute;
+    --d4Tooltip-bulletLeft: -1.25em;
+    --textBadge-horizontalGap: 50px;
+    -webkit-text-size-adjust: 100%;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: auto;
+    pointer-events: auto;
+    color: #bbb;
+    line-height: 1.4;
+    visibility: visible;
+    border-spacing: 0;
+    border-collapse: collapse;
+    outline: none;
+    max-height: 1000000px;
+    border: 0 !important;
 }
 
 .wow-tp-td-content {
@@ -86,7 +91,7 @@ border: 0 !important;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     visibility: visible;
@@ -98,7 +103,7 @@ border: 0 !important;
     border: 0 !important;
     background: url(../images/tooltip.png);
     color: #fff;
-    font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: Verdana, "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
     line-height: 17px;
     padding: 8px 4px 1px 9px;
@@ -107,31 +112,31 @@ border: 0 !important;
 }
 
 .wow-tp-th-content {
---d4Tooltip-bulletOffset: .1em;
---d4Tooltip-bulletHeight: 1.25em;
---d4Tooltip-bulletWidth: 1em;
---d4Tooltip-listPadding: 1.25em;
---d4Tooltip-bulletPosition: absolute;
---d4Tooltip-bulletLeft: -1.25em;
---textBadge-horizontalGap: 50px;
--webkit-text-size-adjust: 100%;
-font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
-cursor: auto;
-pointer-events: auto;
-visibility: visible;
-border-spacing: 0;
-border-collapse: collapse;
-outline: none;
-max-height: 1000000px;
-border: 0 !important;
-background: url(../images/tooltip.png);
-color: #fff;
-font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
-font-size: 12px;
-line-height: 17px;
-padding: 3px;
-vertical-align: top;
-background-position: top right;
+    --d4Tooltip-bulletOffset: .1em;
+    --d4Tooltip-bulletHeight: 1.25em;
+    --d4Tooltip-bulletWidth: 1em;
+    --d4Tooltip-listPadding: 1.25em;
+    --d4Tooltip-bulletPosition: absolute;
+    --d4Tooltip-bulletLeft: -1.25em;
+    --textBadge-horizontalGap: 50px;
+    -webkit-text-size-adjust: 100%;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: auto;
+    pointer-events: auto;
+    visibility: visible;
+    border-spacing: 0;
+    border-collapse: collapse;
+    outline: none;
+    max-height: 1000000px;
+    border: 0 !important;
+    background: url(../images/tooltip.png);
+    color: #fff;
+    font-family: Verdana, "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 3px;
+    vertical-align: top;
+    background-position: top right;
 }
 
 .wow-tp-content-title-table {
@@ -143,12 +148,12 @@ background-position: top right;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     visibility: visible;
     color: #fff;
-    font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: Verdana, "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
     line-height: 17px;
     text-align: left;
@@ -170,12 +175,12 @@ background-position: top right;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     visibility: visible;
     color: #fff;
-    font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: Verdana, "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
     line-height: 17px;
     text-align: left;
@@ -197,7 +202,7 @@ background-position: top right;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     visibility: visible;
@@ -208,7 +213,7 @@ background-position: top right;
     border: 0 !important;
     background: url(../images/tooltip.png);
     color: #fff;
-    font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: Verdana, "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
     line-height: 17px;
     padding: 3px;
@@ -225,7 +230,7 @@ background-position: top right;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     visibility: visible;
@@ -236,7 +241,7 @@ background-position: top right;
     border: 0 !important;
     background: url(../images/tooltip.png);
     color: #fff;
-    font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: Verdana, "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
     line-height: 17px;
     padding: 3px;
@@ -253,7 +258,7 @@ background-position: top right;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     color: #bbb;
@@ -272,9 +277,9 @@ background-position: top right;
 
 .subtype {
     color: #9d9d9d !important;
-    font-size: 15px;    
+    font-size: 15px;
     padding: 3px 0px 3px 0px;
-margin-left: 7.8rem;
+    margin-left: 7.8rem;
 }
 
 .whtt-name {
@@ -286,14 +291,13 @@ margin-left: 7.8rem;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     visibility: visible;
     border-spacing: 0;
     border-collapse: collapse;
-    font-family: Verdana,"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
-    font-size: 17px;
+    font-family: Verdana, "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 17px;
     text-align: left;
     outline: none;
@@ -303,7 +307,7 @@ margin-left: 7.8rem;
 }
 
 .wowhead-tooltip .text {
-    color:#ffd100 !important;
+    color: #ffd100 !important;
     font-size: 15px;
 }
 
@@ -316,7 +320,7 @@ margin-left: 7.8rem;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     pointer-events: auto;
     color: #bbb;
@@ -338,13 +342,13 @@ margin-left: 7.8rem;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     color: #bbb;
     line-height: 1.4;
     outline: none;
     max-height: 1000000px;
-    font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     pointer-events: none;
     position: relative;
     z-index: 0;
@@ -359,11 +363,11 @@ margin-left: 7.8rem;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     color: #bbb;
     line-height: 1.4;
-    font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     pointer-events: none;
     outline: none;
     max-height: 1000000px;
@@ -376,7 +380,7 @@ margin-left: 7.8rem;
     left: 6px;
     top: 6px;
     border-radius: 4px;
-    position:absolute;
+    position: absolute;
 }
 
 .wow-icon del {
@@ -388,11 +392,11 @@ margin-left: 7.8rem;
     --d4Tooltip-bulletLeft: -1.25em;
     --textBadge-horizontalGap: 50px;
     -webkit-text-size-adjust: 100%;
-    font: 14px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font: 14px "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     cursor: auto;
     color: #bbb;
     line-height: 1.4;
-    font-family: "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
     pointer-events: none;
     outline: none;
     max-height: 1000000px;
@@ -404,13 +408,13 @@ margin-left: 7.8rem;
     height: 68px;
     width: 68px;
     background: url(../images/iconborder.png);
-    position:absolute;
+    position: absolute;
 }
 
 main {
     position: relative;
 }
 
-.spell-hr{
+.spell-hr {
     visibility: hidden;
 }

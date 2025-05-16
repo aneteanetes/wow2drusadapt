@@ -1,14 +1,31 @@
 {
-  "IsIncrementalBuild": true,
+  "IsIncrementalBuild": false,
+  "IsDev": false,
   "SearchResultOptions": {
-    "limit_results":15    
+    "limit_results": 15
   },
-  "extensions": {
+  "Extensions": {
     "DiceExtension": {
       "IconSize": 32
     },
     "ImageTokenExtension": {
-      "IconSize": 32
+      "IconSize": 32,
+      "Tokens": [
+        "СИЛ",
+        "ЛВК",
+        "ИНТ",
+        "ВЫН",
+        "ДУХ",
+        "ХАР"
+      ],
+      "TokenMappings": {
+          "СИЛ": "str",
+          "ЛВК": "agi",
+          "ИНТ": "int",
+          "ВЫН": "end",
+          "ДУХ": "spr",
+          "ХАР": "cha"
+      }
     }
   }
 }
