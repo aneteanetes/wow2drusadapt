@@ -11,20 +11,52 @@
     "ImageTokenExtension": {
       "IconSize": 32,
       "Tokens": [
+        "ИНТМОД",
+        "ВЫНМОД",
         "СИЛ",
         "ЛВК",
         "ИНТ",
         "ВЫН",
         "ДУХ",
-        "ХАР"
+        "ХАР",
+        "НКЗ",
+        "КЗ",
+        "УКЛ",
+        "БСБ",
+        "СБ",
+        "УР",
+        "АТК",
+        "НВК"
       ],
       "TokenMappings": {
-          "СИЛ": "str",
-          "ЛВК": "agi",
-          "ИНТ": "int",
-          "ВЫН": "end",
-          "ДУХ": "spr",
-          "ХАР": "cha"
+        "СИЛ": "str",
+        "ЛВК": "agi",
+        "ИНТ": "int",
+        "ВЫН": "end",
+        "ДУХ": "spr",
+        "ХАР": "cha",
+        "ИНТМОД": "intmod",
+        "ВЫНМОД":"endmod",
+        "НКЗ":"nac",
+        "КЗ":"ac",
+        "УКЛ":"dge",
+        "СБ":"safethrow",
+        "БСБ":"safethrow",
+        "УР":"lvl",
+        "АТК":"atk",
+        "НВК":"skillbonus"
+      }
+    },
+    "WoWPlateExtension": {
+      "SkillsIconMappings": {
+        "Оценка":"appraise",
+        "Карабканье":"climb",
+        "Изготовление":"craft",
+        "Концентрация":"concentration",
+        "Слух":"listen",
+        "Поиск":"search",
+        "Проницательность":"sense",
+        "Внимание":"spot"
       }
     }
   }

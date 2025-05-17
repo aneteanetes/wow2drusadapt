@@ -1,11 +1,19 @@
 .nation-icons {
     height: 68px;
-    display: flex;;
+    display: flex;
     justify-content: center;
-} 
+}
 
 .crest {
     display: block;
     margin: auto;
     width: 50%;
+}
+
+.bonus-table th:last-child {
+    white-space: nowrap;
+}
+
+.bonus-table td {
+    text-align: center;
 }

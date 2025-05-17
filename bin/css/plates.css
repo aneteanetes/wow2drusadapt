@@ -5,8 +5,9 @@ a>.hljs {
     color: #e69f67;
 }
 
-.wowplate-header {
-    margin-bottom: 0.5rem;
+.wowplate-header .header {
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
 }
 
 .wowhead-tooltip {
@@ -333,6 +334,15 @@ a>.hljs {
     height: 6.8rem;
 }
 
+.wow-icon-small {
+    cursor: pointer;
+    width: 3.4rem;
+    height: 3.4rem;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .icon-large {
     --d4Tooltip-bulletOffset: .1em;
     --d4Tooltip-bulletHeight: 1.25em;
@@ -383,6 +393,11 @@ a>.hljs {
     position: absolute;
 }
 
+.wow-icon-small ins {
+    height: 24px;
+    width: 24px;
+}
+
 .wow-icon del {
     --d4Tooltip-bulletOffset: .1em;
     --d4Tooltip-bulletHeight: 1.25em;
@@ -409,6 +424,14 @@ a>.hljs {
     width: 68px;
     background: url(../images/iconborder.png);
     position: absolute;
+}
+
+.wow-icon-small del {
+        height: 26px;
+    width: 26px;
+    left: 4px;
+    top: 4px;
+    background-size: 100%;
 }
 
 main {
