@@ -51,6 +51,7 @@
          - [Класс Дварф Стальгорна](./heroes/dwarfes/dwarfclass.md)
       - [Высшие Эльфы](./heroes/highelves/highelves.md)
          - [Черты высших эльфов](./heroes/highelves/highelvestraits.md)
+         - [Класс Высший Эльф](./heroes/highelves/highelvesclass.md)
 
 - [Часть 7: Материалы]
 ---
