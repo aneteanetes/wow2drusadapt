@@ -50,8 +50,11 @@
          - [Черты дварфов](./heroes/dwarfes/dwarftraits.md)
          - [Класс Дварф Стальгорна](./heroes/dwarfes/dwarfclass.md)
       - [Высшие Эльфы](./heroes/highelves/highelves.md)
-         - [Черты высших эльфов](./heroes/highelves/highelvestraits.md)
+         - [Черты Высших эльфов](./heroes/highelves/highelvestraits.md)
          - [Класс Высший Эльф](./heroes/highelves/highelvesclass.md)
+      - [Ночные Эльфы](./heroes/nightelves/nightelves.md)
+         - [Черты Ночных эльфов](./heroes/nightelves/nightelvestraits.md)
+         - [Класс Ночной Эльф](./heroes/nightelves/nightelvesclass.md)
 
 - [Часть 7: Материалы]
 ---

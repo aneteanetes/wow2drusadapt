@@ -63,7 +63,12 @@
         "Внимание":"spot",
         "Дипломатия":"diplomacy",
         "Знания":"knowledge",
-        "Чары":"spellike"
+        "Чары":"spellike",
+        "Приручение":"tame",
+        "Скрытность":"stealth",
+        "Выживание":"survival",
+        "Баланс":"balance",
+        "Кувырок":"tumle"
       }
     }
   }
