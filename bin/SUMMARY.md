@@ -40,9 +40,8 @@
       - [Черты круговерти пустоты](./cosmology/twistingnethertraits.md)
 
 
-- [Часть 1: Герои]
+[Часть 1: Герои]
 ---
-
 - [Герои](./heroes/characters.md)
    - [Характеристики](./heroes/abilities.md)
    - [Народы](./heroes/nations.md)
@@ -55,8 +54,10 @@
       - [Ночные Эльфы](./heroes/nightelves/nightelves.md)
          - [Черты Ночных эльфов](./heroes/nightelves/nightelvestraits.md)
          - [Класс Ночной Эльф](./heroes/nightelves/nightelvesclass.md)
+      - [Гномы](./heroes/gnomes/gnomes.md)
+         - [Черты Гномов](./heroes/gnomes/gnomestraits.md)
 
-- [Часть 7: Материалы]
+[Часть 7: Материалы]
 ---
 - [Таблицы](./tables/index.md)
    - [1-1: Модификаторы Характеристик](./tables/1-1.md)

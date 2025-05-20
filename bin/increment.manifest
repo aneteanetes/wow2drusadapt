@@ -1,0 +1,568 @@
+{
+  "Resources": [
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\fonts\\fonts.css",
+      "LastWriteTime": "2025-05-13T10:31:48.2398672+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\fonts\\fritz-quadrata-cyrillic.woff2",
+      "LastWriteTime": "2025-05-13T10:31:48.2404129+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\favicon.svg",
+      "LastWriteTime": "2025-05-13T10:31:48.2615265+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\iconborder.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2635308+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\logo.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2709512+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\oldworl4.gif",
+      "LastWriteTime": "2025-05-13T10:31:48.2739542+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\oldworl6.gif",
+      "LastWriteTime": "2025-05-13T10:31:48.275959+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\oldworld1.gif",
+      "LastWriteTime": "2025-05-13T10:31:48.2779543+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\oldworld2.gif",
+      "LastWriteTime": "2025-05-13T10:31:48.2819513+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\oldworld3.gif",
+      "LastWriteTime": "2025-05-13T10:31:48.2839499+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\oldworld5.gif",
+      "LastWriteTime": "2025-05-13T10:31:48.2849513+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\oldworldatlas.png",
+      "LastWriteTime": "2025-05-13T10:31:48.3031518+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tooltip.png",
+      "LastWriteTime": "2025-05-13T10:31:48.3104772+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\WorldofWarcraftRPG.webp",
+      "LastWriteTime": "2025-05-13T10:31:48.250149+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\theme\\favicon.svg",
+      "LastWriteTime": "2025-05-13T10:31:48.3177618+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\clips\\16-felorc.jpg",
+      "LastWriteTime": "2025-05-13T22:13:50.311446+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\clips\\heroes.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2581495+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\dwarfcrest1.png",
+      "LastWriteTime": "2025-05-15T10:25:10.3020181+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\gnomecrest.png",
+      "LastWriteTime": "2025-05-19T22:21:05.7101017+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\Gnome_Crest.webp",
+      "LastWriteTime": "2025-05-19T22:19:16.4906806+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\highelfcrest.png",
+      "LastWriteTime": "2025-05-18T20:56:25.4647569+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\nightelfcrest.png",
+      "LastWriteTime": "2025-05-19T14:59:09.298534+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\dices\\di%.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2591474+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\dices\\di10.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2591474+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\dices\\di12.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2605213+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\dices\\di20.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2605213+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\dices\\di4.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2605213+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\dices\\di6.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2615265+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\dices\\di8.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2615265+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\elements\\wowscroll.png",
+      "LastWriteTime": "2025-05-13T10:52:59.2675548+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\elements\\wowscrollbot.png",
+      "LastWriteTime": "2025-05-13T18:18:20.0253663+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\elements\\wowscrollmid.png",
+      "LastWriteTime": "2025-05-13T17:27:17.2035824+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\elements\\wowscrollsmall.png",
+      "LastWriteTime": "2025-05-13T10:53:27.0749371+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\elements\\wowscrolltop.png",
+      "LastWriteTime": "2025-05-13T13:28:21.9836043+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Ability_DemonHunter_ChaoticImprint_Shadow.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2635308+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Ability_Evoker_FontofMagic_Green.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2650947+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Ability_Evoker_Green_01.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2650947+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Ability_Mage_TimeWarp.png",
+      "LastWriteTime": "2025-05-13T10:31:48.265858+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Achievement_Character_Dwarf_Female.png",
+      "LastWriteTime": "2025-05-15T10:52:59.178535+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Achievement_Character_Dwarf_Male.png",
+      "LastWriteTime": "2025-05-15T10:52:37.5826155+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Achievement_Dungeon_UlduarRaid_IronDwarf_01.png",
+      "LastWriteTime": "2025-05-15T17:39:41.07793+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Achievement_Zone_EmeraldDream.png",
+      "LastWriteTime": "2025-05-13T10:31:48.265858+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Achievement_Zone_Outland_01.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2669514+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\armor.png",
+      "LastWriteTime": "2025-05-15T23:06:40.9477712+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\blood.png",
+      "LastWriteTime": "2025-05-15T22:53:33.3433506+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\bluemind.png",
+      "LastWriteTime": "2025-05-18T21:32:42.0493511+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\castlvl.png",
+      "LastWriteTime": "2025-05-18T22:50:01.0978761+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\darkvision.png",
+      "LastWriteTime": "2025-05-18T21:11:55.9526802+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\dwarfskin.png",
+      "LastWriteTime": "2025-05-15T23:10:27.5864747+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\dwarfsome.png",
+      "LastWriteTime": "2025-05-15T23:10:57.8621241+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\dwarves.png",
+      "LastWriteTime": "2025-05-15T17:41:24.5715895+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\elvesmuscle.png",
+      "LastWriteTime": "2025-05-18T21:10:40.9482878+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\elvestree.png",
+      "LastWriteTime": "2025-05-19T21:14:04.2668831+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\glass.png",
+      "LastWriteTime": "2025-05-15T22:43:01.5686299+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\gnomefemale.png",
+      "LastWriteTime": "2025-05-19T22:22:34.8980864+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\gnomemale.png",
+      "LastWriteTime": "2025-05-19T22:22:10.174126+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\heart.png",
+      "LastWriteTime": "2025-05-15T22:52:55.9169783+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\highelfclass.png",
+      "LastWriteTime": "2025-05-18T21:29:21.2051466+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\highelffemale.png",
+      "LastWriteTime": "2025-05-17T20:02:26.6119125+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\highelfmale.png",
+      "LastWriteTime": "2025-05-17T20:01:44.5309961+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\hunter.png",
+      "LastWriteTime": "2025-05-19T21:34:28.4214977+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\INV_10_ElementalCombinedFoozles_Primordial.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2669514+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\INV_10_Enchanting2_ElementalSwirl_Color1.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2679512+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\INV_Enchant_VoidSphere.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2679512+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\INV_Jewelcrafting_90_Reagent_Purple.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2689508+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\INV_Legion_Faction_DreamWeavers.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2689508+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\INV_Stone_06.png",
+      "LastWriteTime": "2025-05-15T17:37:13.4741167+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\lang.png",
+      "LastWriteTime": "2025-05-17T00:20:51.6808692+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\mage.png",
+      "LastWriteTime": "2025-05-18T21:36:43.5190169+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\magicaddition.png",
+      "LastWriteTime": "2025-05-18T21:17:29.5621179+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\magicborne.png",
+      "LastWriteTime": "2025-05-18T21:35:48.3817079+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\manatap.png",
+      "LastWriteTime": "2025-05-18T21:18:47.6694049+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\masstp.png",
+      "LastWriteTime": "2025-05-17T00:02:22.1292273+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\natureleaf.png",
+      "LastWriteTime": "2025-05-19T21:19:20.6593068+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\natureresistance.png",
+      "LastWriteTime": "2025-05-19T21:51:50.9723422+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\nightelffemale.png",
+      "LastWriteTime": "2025-05-19T14:53:39.0414224+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\nightelfmale.png",
+      "LastWriteTime": "2025-05-19T14:53:11.1016171+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\nightelves.png",
+      "LastWriteTime": "2025-05-19T21:33:01.5028794+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\nightvision.png",
+      "LastWriteTime": "2025-05-18T21:34:18.9048482+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\poisonresist.png",
+      "LastWriteTime": "2025-05-15T17:50:10.930846+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\rage.png",
+      "LastWriteTime": "2025-05-18T21:20:09.1413722+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\scroll1.png",
+      "LastWriteTime": "2025-05-15T22:50:54.3903851+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\scroll2.png",
+      "LastWriteTime": "2025-05-15T22:54:52.3859702+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\shadowmelt.png",
+      "LastWriteTime": "2025-05-19T21:47:25.0994261+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\shout.png",
+      "LastWriteTime": "2025-05-15T22:47:15.0397083+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\skills.png",
+      "LastWriteTime": "2025-05-15T22:57:08.8709869+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\speak.png",
+      "LastWriteTime": "2025-05-15T22:45:22.7048747+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\speed.png",
+      "LastWriteTime": "2025-05-16T23:48:51.5037066+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\spellike.png",
+      "LastWriteTime": "2025-05-18T22:50:39.5688466+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Spell_Fire_TwilightFlameStrike.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2689508+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Spell_Nature_ElementalPrecision_1.png",
+      "LastWriteTime": "2025-05-13T10:31:48.269951+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Spell_Priest_Void Blast.png",
+      "LastWriteTime": "2025-05-13T10:31:48.269951+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Spell_Priest_Void Flay.png",
+      "LastWriteTime": "2025-05-13T10:31:48.269951+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\Spell_Shadow_ShadowWordDominate.png",
+      "LastWriteTime": "2025-05-13T10:31:48.2709512+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\stability.png",
+      "LastWriteTime": "2025-05-17T00:03:58.302261+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\stoneform.png",
+      "LastWriteTime": "2025-05-15T23:08:49.8953226+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\stonemagic.png",
+      "LastWriteTime": "2025-05-15T17:47:53.1083357+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\strength.png",
+      "LastWriteTime": "2025-05-16T23:41:44.3775569+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\warrior.png",
+      "LastWriteTime": "2025-05-15T22:49:24.1118788+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\weaponsmith.png",
+      "LastWriteTime": "2025-05-15T23:03:29.3343827+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\weaponspec.png",
+      "LastWriteTime": "2025-05-15T17:48:43.1962785+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\appraise.png",
+      "LastWriteTime": "2025-05-17T16:22:32.8752821+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\balance.png",
+      "LastWriteTime": "2025-05-19T22:07:39.5186861+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\climb.png",
+      "LastWriteTime": "2025-05-17T16:24:39.8844876+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\concentration.png",
+      "LastWriteTime": "2025-05-17T16:27:20.4128679+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\craft.png",
+      "LastWriteTime": "2025-05-17T16:26:31.4328093+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\diplomacy.png",
+      "LastWriteTime": "2025-05-18T23:05:09.3445333+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\knowledge.png",
+      "LastWriteTime": "2025-05-18T23:06:38.8730325+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\listen.png",
+      "LastWriteTime": "2025-05-17T16:28:31.5887319+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\search.png",
+      "LastWriteTime": "2025-05-17T16:29:42.7105258+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\sense.png",
+      "LastWriteTime": "2025-05-17T16:30:41.1924418+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\speak.png",
+      "LastWriteTime": "2025-05-17T19:08:55.4987632+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\spellike.png",
+      "LastWriteTime": "2025-05-18T22:50:39.5688466+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\spot.png",
+      "LastWriteTime": "2025-05-17T16:32:02.6803309+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\stealth.png",
+      "LastWriteTime": "2025-05-19T21:43:21.4828131+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\survival.png",
+      "LastWriteTime": "2025-05-19T21:45:14.4895476+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\tame.png",
+      "LastWriteTime": "2025-05-19T21:40:37.3401709+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\tumple.png",
+      "LastWriteTime": "2025-05-19T22:09:05.4439358+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\ac.png",
+      "LastWriteTime": "2025-05-17T19:07:23.8065854+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\agi.png",
+      "LastWriteTime": "2025-05-13T10:31:48.305433+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\atk.png",
+      "LastWriteTime": "2025-05-17T19:32:16.5252489+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\cha.png",
+      "LastWriteTime": "2025-05-13T10:31:48.3057416+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\chast.png",
+      "LastWriteTime": "2025-05-18T22:03:11.9110931+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\dge.png",
+      "LastWriteTime": "2025-05-17T19:25:56.5710555+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\end.png",
+      "LastWriteTime": "2025-05-13T10:31:48.3064747+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\endmod.png",
+      "LastWriteTime": "2025-05-17T19:14:36.7006332+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\int.png",
+      "LastWriteTime": "2025-05-13T10:31:48.3079748+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\intmod.png",
+      "LastWriteTime": "2025-05-17T15:53:27.2184537+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\lvl.png",
+      "LastWriteTime": "2025-05-17T19:30:11.9529088+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\nac.png",
+      "LastWriteTime": "2025-05-17T19:07:56.9750239+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\safethrow.png",
+      "LastWriteTime": "2025-05-17T19:27:38.9315464+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\skillbonus.png",
+      "LastWriteTime": "2025-05-17T19:35:34.3273624+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\spr.png",
+      "LastWriteTime": "2025-05-13T10:31:48.3089745+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\sprmod.png",
+      "LastWriteTime": "2025-05-18T21:59:01.701122+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tokens\\str.png",
+      "LastWriteTime": "2025-05-13T10:31:48.3099748+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\theme\\css\\fonts.css",
+      "LastWriteTime": "2025-05-13T10:31:48.3166956+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\theme\\css\\nations.css",
+      "LastWriteTime": "2025-05-18T20:59:09.1481662+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\theme\\css\\plates.css",
+      "LastWriteTime": "2025-05-17T16:56:43.0573117+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\theme\\css\\storyline.css",
+      "LastWriteTime": "2025-05-13T21:44:15.1465673+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\theme\\fonts\\fonts.css",
+      "LastWriteTime": "2025-05-13T10:31:48.3177618+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\theme\\fonts\\fritz-quadrata-cyrillic.woff2",
+      "LastWriteTime": "2025-05-13T10:31:48.3188707+03:00"
+    }
+  ]
+}
