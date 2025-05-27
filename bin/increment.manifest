@@ -49,6 +49,14 @@
       "LastWriteTime": "2025-05-13T10:31:48.3031518+03:00"
     },
     {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\race_goblin_female.jpg",
+      "LastWriteTime": "2025-05-27T11:22:48.8061039+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\race_goblin_male.jpg",
+      "LastWriteTime": "2025-05-27T11:22:54.9617069+03:00"
+    },
+    {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\tooltip.png",
       "LastWriteTime": "2025-05-13T10:31:48.3104772+03:00"
     },
@@ -77,8 +85,8 @@
       "LastWriteTime": "2025-05-19T22:21:05.7101017+03:00"
     },
     {
-      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\Gnome_Crest.webp",
-      "LastWriteTime": "2025-05-19T22:19:16.4906806+03:00"
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\goblincrest.png",
+      "LastWriteTime": "2025-05-27T11:30:32.8901831+03:00"
     },
     {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\crests\\highelfcrest.png",
@@ -173,6 +181,10 @@
       "LastWriteTime": "2025-05-13T10:31:48.2669514+03:00"
     },
     {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\agilityspec.png",
+      "LastWriteTime": "2025-05-27T10:40:40.7404357+03:00"
+    },
+    {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\armor.png",
       "LastWriteTime": "2025-05-15T23:06:40.9477712+03:00"
     },
@@ -211,6 +223,10 @@
     {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\elvestree.png",
       "LastWriteTime": "2025-05-19T21:14:04.2668831+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\engineering.png",
+      "LastWriteTime": "2025-05-27T10:27:09.51693+03:00"
     },
     {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\glass.png",
@@ -273,6 +289,10 @@
       "LastWriteTime": "2025-05-17T00:20:51.6808692+03:00"
     },
     {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\listen.png",
+      "LastWriteTime": "2025-05-27T10:34:31.1838708+03:00"
+    },
+    {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\mage.png",
       "LastWriteTime": "2025-05-18T21:36:43.5190169+03:00"
     },
@@ -319,6 +339,14 @@
     {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\poisonresist.png",
       "LastWriteTime": "2025-05-15T17:50:10.930846+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\race_goblin_female.png",
+      "LastWriteTime": "2025-05-27T11:23:19.891822+03:00"
+    },
+    {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\race_goblin_male.png",
+      "LastWriteTime": "2025-05-27T11:23:37.8501453+03:00"
     },
     {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\rage.png",
@@ -393,6 +421,10 @@
       "LastWriteTime": "2025-05-16T23:41:44.3775569+03:00"
     },
     {
+      "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\tech.png",
+      "LastWriteTime": "2025-05-27T10:43:36.4978322+03:00"
+    },
+    {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\icons\\warrior.png",
       "LastWriteTime": "2025-05-15T22:49:24.1118788+03:00"
     },
@@ -434,7 +466,7 @@
     },
     {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\listen.png",
-      "LastWriteTime": "2025-05-17T16:28:31.5887319+03:00"
+      "LastWriteTime": "2025-05-27T10:34:31.1838708+03:00"
     },
     {
       "Path": "C:\\Users\\Anete.N-TRETYAKOVAR\\source\\repos\\wow2drusadapt\\src\\images\\skills\\search.png",

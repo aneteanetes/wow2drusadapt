@@ -56,6 +56,8 @@
          - [Класс Ночной Эльф](./heroes/nightelves/nightelvesclass.md)
       - [Гномы](./heroes/gnomes/gnomes.md)
          - [Черты Гномов](./heroes/gnomes/gnomestraits.md)
+      - [Гоблины](./heroes/goblins/goblins.md)
+         - [Черты Гномов](./heroes/goblins/goblinstraits.md)
 
 [Часть 7: Материалы]
 ---
