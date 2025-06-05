@@ -28,7 +28,8 @@
         "СБ",
         "УР",
         "АТК",
-        "НВК"
+        "НВК",
+        "ЧРТ"
       ],
       "TokenMappings": {
         "СИЛ": "str",
@@ -48,11 +49,13 @@
         "УР":"lvl",
         "АТК":"atk",
         "НВК":"skillbonus",
-        "ХАРСБ":"chast"
+        "ХАРСБ":"chast",
+        "ЧРТ":"feat"
       }
     },
     "WoWPlateExtension": {
       "SkillsIconMappings": {
+        "Алхимия":"alchemy",
         "Оценка":"appraise",
         "Карабканье":"climb",
         "Изготовление":"craft",

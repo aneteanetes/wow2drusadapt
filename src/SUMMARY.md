@@ -57,7 +57,13 @@
       - [Гномы](./heroes/gnomes/gnomes.md)
          - [Черты Гномов](./heroes/gnomes/gnomestraits.md)
       - [Гоблины](./heroes/goblins/goblins.md)
-         - [Черты Гномов](./heroes/goblins/goblinstraits.md)
+         - [Черты Гоблинов](./heroes/goblins/goblinstraits.md)
+      - [Люди](./heroes/humans/humans.md)
+         - [Черты Людей](./heroes/humans/humanstraits.md)
+      - [Орки](./heroes/orcs/orcs.md)
+         - [Черты Орков](./heroes/orcs/orcstraits.md)
+      - [Таурены](./heroes/taurs/taurs.md)
+         - [Черты Тауренов](./heroes/taurs/taurstraits.md)
 
 [Часть 7: Материалы]
 ---

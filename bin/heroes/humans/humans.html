@@ -1,0 +1,463 @@
+<!DOCTYPE HTML>
+<html lang="ru" class="rust sidebar-visible" dir="ltr">
+<head>
+    <!-- Book generated using (almost) mdBook -->
+    <meta charset="UTF-8">
+    <title>Люди - World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="icon" href="./../../images/favicon.svg">
+    <link rel="stylesheet" href="./../../css/variables.css">
+    <link rel="stylesheet" href="./../../css/general.css">
+    <link rel="stylesheet" href="./../../css/chrome.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./../../FontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./../../fonts/fonts.css">
+
+    <!-- Highlight.js Stylesheets -->
+    <link rel="stylesheet" href="./../../highlight.css">
+    <link rel="stylesheet" href="./../../tomorrow-night.css">
+    <link rel="stylesheet" href="./../../ayu-highlight.css">
+
+    <!-- Custom theme stylesheets -->
+    <link rel="stylesheet" href="./../../css/fonts.css">
+    <link rel="stylesheet" href="./../../css/nations.css">
+    <link rel="stylesheet" href="./../../css/plates.css">
+    <link rel="stylesheet" href="./../../css/storyline.css">
+    <!-- Extensions stylesheets -->
+    <link rel="stylesheet" href="./../../dices\dices.css">
+
+
+
+    <!-- Provide site root to javascript -->
+    <script>
+            var path_to_root = "./../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "" : "rust";
+    </script>
+</head>
+    <body>
+        <div id="body-container">
+            <!-- Work around some values being stored in localStorage wrapped in quotes -->
+            <script>
+                try {
+                    var theme = localStorage.getItem('mdbook-theme');
+                    var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                    if (theme.startsWith('"') && theme.endsWith('"')) {
+                        localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                    }
+
+                    if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                        localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                    }
+                } catch (e) { }
+            </script>
+
+            <!-- Set the theme before any content is loaded, prevents flash -->
+            <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add("js");
+            </script>
+
+            <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+            <!-- Hide / unhide sidebar before it is displayed -->
+            <script>
+                var sidebar = null;
+                var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+                if (document.body.clientWidth >= 1080) {
+                    try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch (e) { }
+                    sidebar = sidebar || 'visible';
+                } else {
+                    sidebar = 'hidden';
+                }
+                sidebar_toggle.checked = sidebar === 'visible';
+                html.classList.remove('sidebar-visible');
+                html.classList.add("sidebar-" + sidebar);
+            </script>
+
+            <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+                <!-- populated by js -->
+                <div class="sidebar-scrollbox">
+                    <ol class="chapter">
+                        <li class="chapter-item expanded">
+    <a href="../../adapt.html">Адаптация
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../main.html"><strong aria-hidden="true">1.</strong>WoW RP 2ed
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../prelude/hog.html"><strong aria-hidden="true">1.1.</strong>Туман войны рассеян!
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../prelude/inview.html"><strong aria-hidden="true">1.2.</strong>Авторы и благодарности
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../common/common.html"><strong aria-hidden="true">2.</strong>Общая информация
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../common/inbook.html"><strong aria-hidden="true">2.1.</strong>Что в этой книге?
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../common/whatneeds.html"><strong aria-hidden="true">2.2.</strong>Что ещё нужно?
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../common/2ed.html"><strong aria-hidden="true">2.3.</strong>Вторая редакция
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../common/basic.html"><strong aria-hidden="true">2.4.</strong>Основные понятия
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../charcreate/creating.html"><strong aria-hidden="true">3.</strong>Создание персонажей
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../history/personalities.html"><strong aria-hidden="true">4.</strong>История и личности
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../history/novadays.html"><strong aria-hidden="true">4.1.</strong>Текущее время
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../history/timeline.html"><strong aria-hidden="true">4.2.</strong>Летопись
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../geography/geo.html"><strong aria-hidden="true">5.</strong>География
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../geography/mood.html"><strong aria-hidden="true">5.1.</strong>Настроения
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/patri.html"><strong aria-hidden="true">5.2.</strong>Патриотизм
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/world.html"><strong aria-hidden="true">5.3.</strong>Мир варкрафта
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/azeroth.html"><strong aria-hidden="true">5.4.</strong>Азерот
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/kazmodan.html"><strong aria-hidden="true">5.5.</strong>Каз'Модан
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/kalimdor.html"><strong aria-hidden="true">5.6.</strong>Калимдор
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/loarderon.html"><strong aria-hidden="true">5.7.</strong>Лордерон
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/maelstorm.html"><strong aria-hidden="true">5.8.</strong>Водоворот
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/northrend.html"><strong aria-hidden="true">5.9.</strong>Нордскол
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../geography/kaeltalas.html"><strong aria-hidden="true">5.10.</strong>Кель'Талас
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../cosmology/planes.html"><strong aria-hidden="true">6.</strong>Космология
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../cosmology/elementalplane.html"><strong aria-hidden="true">6.1.</strong>Обитель стихий
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../cosmology/elementalplanetraits.html"><strong aria-hidden="true">6.1.1.</strong>Черты обители стихий
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../cosmology/emeralddream.html"><strong aria-hidden="true">6.2.</strong>Изумрудный сон
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../cosmology/emeralddreamtraits.html"><strong aria-hidden="true">6.2.1.</strong>Черты изумрудного сна
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../cosmology/outland.html"><strong aria-hidden="true">6.3.</strong>Запределье
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../cosmology/outlandtraits.html"><strong aria-hidden="true">6.3.1.</strong>Черты запределья
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../cosmology/twistingnether.html"><strong aria-hidden="true">6.4.</strong>Круговерть пустоты
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../cosmology/twistingnethertraits.html"><strong aria-hidden="true">6.4.1.</strong>Черты круговерти пустоты
+    </a>
+</li></ol></li></ol></li><li class="chapter-item expanded affix ">
+<li class="part-title">Часть 1: Герои</li><li class="spacer"></li><li class="chapter-item expanded">
+    <a href="../characters.html"><strong aria-hidden="true">7.</strong>Герои
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../abilities.html"><strong aria-hidden="true">7.1.</strong>Характеристики
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../nations.html"><strong aria-hidden="true">7.2.</strong>Народы
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../dwarfes/dwarfes.html"><strong aria-hidden="true">7.2.1.</strong>Дварфы Стальгорна
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../dwarfes/dwarftraits.html"><strong aria-hidden="true">7.2.1.1.</strong>Черты дварфов
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../dwarfes/dwarfclass.html"><strong aria-hidden="true">7.2.1.2.</strong>Класс Дварф Стальгорна
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../highelves/highelves.html"><strong aria-hidden="true">7.2.2.</strong>Высшие Эльфы
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../highelves/highelvestraits.html"><strong aria-hidden="true">7.2.2.1.</strong>Черты Высших эльфов
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../highelves/highelvesclass.html"><strong aria-hidden="true">7.2.2.2.</strong>Класс Высший Эльф
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../nightelves/nightelves.html"><strong aria-hidden="true">7.2.3.</strong>Ночные Эльфы
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../nightelves/nightelvestraits.html"><strong aria-hidden="true">7.2.3.1.</strong>Черты Ночных эльфов
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../nightelves/nightelvesclass.html"><strong aria-hidden="true">7.2.3.2.</strong>Класс Ночной Эльф
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../gnomes/gnomes.html"><strong aria-hidden="true">7.2.4.</strong>Гномы
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../gnomes/gnomestraits.html"><strong aria-hidden="true">7.2.4.1.</strong>Черты Гномов
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../goblins/goblins.html"><strong aria-hidden="true">7.2.5.</strong>Гоблины
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../goblins/goblinstraits.html"><strong aria-hidden="true">7.2.5.1.</strong>Черты Гоблинов
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="" class="active""><strong aria-hidden="true">7.2.6.</strong>Люди
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="humanstraits.html"><strong aria-hidden="true">7.2.6.1.</strong>Черты Людей
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../orcs/orcs.html"><strong aria-hidden="true">7.2.7.</strong>Орки
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../orcs/orcstraits.html"><strong aria-hidden="true">7.2.7.1.</strong>Черты Орков
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../taurs/taurs.html"><strong aria-hidden="true">7.2.8.</strong>Таурены
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../taurs/taurstraits.html"><strong aria-hidden="true">7.2.8.1.</strong>Черты Тауренов
+    </a>
+</li></ol></li></ol></li></ol></li><li class="chapter-item expanded affix ">
+<li class="part-title">Часть 7: Материалы</li><li class="spacer"></li><li class="chapter-item expanded">
+    <a href="../../tables/index.html"><strong aria-hidden="true">8.</strong>Таблицы
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../tables/1-1.html"><strong aria-hidden="true">8.1.</strong>1-1: Модификаторы Характеристик
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../tables/1-2.html"><strong aria-hidden="true">8.2.</strong>1-2: Дополнительные заклинания
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../tables/1-3.html"><strong aria-hidden="true">8.3.</strong>1-3: Грузоподъёмность
+    </a>
+</li><li><ol class="section"><li class="chapter-item expanded">
+    <a href="../../tables/1-3.1.html"><strong aria-hidden="true">8.3.1.</strong>1-3.1: Размеры
+    </a>
+</li></ol></li><li class="chapter-item expanded">
+    <a href="../../tables/1-4.html"><strong aria-hidden="true">8.4.</strong>1-4: Нагрузка
+    </a>
+</li><li class="chapter-item expanded">
+    <a href="../../tables/2-1.html"><strong aria-hidden="true">8.5.</strong>2-1: Модификаторы характеристик у народов
+    </a>
+</li>
+                    </ol>
+                </div>
+                <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                    <div class="sidebar-resize-indicator"></div>
+                </div>
+            </nav>
+
+            <!-- Track and set sidebar scroll position -->
+            <script>
+                var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+                sidebarScrollbox.addEventListener('click', function (e) {
+                    if (e.target.tagName === 'A') {
+                        sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                    }
+                }, { passive: true });
+                var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+                sessionStorage.removeItem('sidebar-scroll');
+                if (sidebarScrollTop) {
+                    // preserve sidebar scroll position when navigating via links within sidebar
+                    sidebarScrollbox.scrollTop = sidebarScrollTop;
+                } else {
+                    // scroll sidebar to current active section when navigating via "next/Назад" buttons
+                    var activeSection = document.querySelector('#sidebar .active');
+                    if (activeSection) {
+                        activeSection.scrollIntoView({ block: 'center' });
+                    }
+                }
+            </script>
+
+            <div id="page-wrapper" class="page-wrapper">
+
+                <div class="page">
+                    <div id="menu-bar-hover-placeholder"></div>
+                    <div id="menu-bar" class="menu-bar sticky">
+                        <div class="left-buttons">
+                            <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Содержание" aria-label="Содержание" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </label>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Тема" aria-label="Тема" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Светлая</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Тёмная</button></li>
+                                <!--<li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>-->
+                            </ul>
+                            <button id="search-toggle" class="icon-button" type="button" title="Поиск (ctrl+f)" aria-label="Поиск" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+
+                        <h1 class="menu-title">Люди - World of Warcraft The Roreplay Game 2d Edition - Русскоязычная адаптация</h1>
+
+                        <div class="right-buttons">
+                        </div>
+                    </div>
+
+                    <div id="search-wrapper" class="hidden">
+                        <form id="searchbar-outer" class="searchbar-outer">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Искать в правилах..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        </form>
+                        <div id="searchresults-outer" class="searchresults-outer hidden">
+                            <div id="searchresults-header" class="searchresults-header"></div>
+                            <ul id="searchresults">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                    <script>
+                        document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                        document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                        Array.from(document.querySelectorAll('#sidebar a')).forEach(function (link) {
+                            link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                        });
+                    </script>
+
+                    <div id="content" class="content">
+                        <main>
+                            <h1 id="Люди"><a class="header" href="#Люди">Люди</a></h1>
+<div class="nation-icons">
+<div class="wow-icon">
+      <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
+        <ins style="background-image: url('./../../images/icons/humanmale.png');" class="">
+        </ins>  
+        <del>  
+        </del>
+      </div></div>
+<div class="wow-icon">
+      <div class="iconlarge" data-env="live" data-tree="live" data-game="wow">    
+        <ins style="background-image: url('./../../images/icons/humanfemale.png');" class="">
+        </ins>  
+        <del>  
+        </del>
+      </div></div>
+</div>
+<h2 id="Описание"><a class="header" href="#Описание">Описание</a></h2>
+<p>Люди самый молодой, но и самый многочисленный народ в этом <a href="../../geography/world.html">мире</a>. Поскольку их продолжительность жизни, как правило, короче, чем у других народов, люди прилагают все усилия, чтобы достичь больших высот в развитии своей цивилизации, исследовании мира и изучении магии. Их активная и любознательная натура привела к тому, что они стали одним из самых влиятельных народов.
+Однако так было только до первоначального вторжения орков через <a href="../../history/timeline.html">Темный Портал</a>. В результате вторжения и последующих трёх войн против <a href="../orcs/orcs.html">орков</a> людские королевства сильно пострадали от <a href="../../geography/mood.html#%D0%90%D0%BB%D1%8C%D1%8F%D0%BD%D1%81-%D0%B8-%D0%9E%D1%80%D0%B4%D0%B0">Орды</a> и <code>Демонов</code>. Больше всего людей пало во время <a href="../../history/timeline.html">Третьей войны</a>, оставив после себя небольшую горстку непокорных выживших <code>Экспедиции Альянса</code> под командованием колдуньи <code>Джайны Праудмур</code>, которая повела их на <a href="../../geography/kalimdor.html">Калимдор</a>.
+Людям из <a href="../../geography/loarderon.html">Восточных королевств</a> повезло меньше. <code>Лордерон</code> разрушен <code>Плетью</code> и захвачен <a href="../forsaken/forsaken.html">Отрекшимися</a>, а пустоши вокруг стали полем битвы <a href="../jungletrolls/jungletrolls.html">Лесных троллей</a> с <code>ограми</code> и агрессивной фауной. На <code>Лордероне</code> осталась лишь небольшая кучка изнурённых людей, постоянно борящихся за посягательства на свои маленькие поселения.
+Королевство <a href="../../geography/azeroth.html#%D0%A8%D1%82%D0%BE%D1%80%D0%BC%D0%B3%D1%80%D0%B0%D0%B4-%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%8Fmetropoly-%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-200-000">Штормград</a>, первое, кто почувствовал на себе ярость орков, чувствует себя лучше остальных и на текущий момент единственное могущественное королевство людей. Однако <code>Штормграду</code> далеко от спокойствия - враги наступают со всех сторон и так и наровят захватить оставшуюся людскую территорию.
+На народ людей выпало много препятствий, они поколениями боролись с тёмными силами и потеряли несколько величайших королевств. Эти потери озлобили людей и воспитали в них воинственный нрав, который вылился в новую модель дипломатии - вначале атака, затем выяснение обстоятельств.
+Благодаря своей вере в <code>Свет</code> люди готовы выстоять против любых преград, и не смотря на все трагедии остаются выносливыми и храбрыми. В конце концов годы войны только закалили человеческую решимость, и они готовы действовать как никогда прежде.</p>
+<h2 id="Внешность"><a class="header" href="#Внешность">Внешность</a></h2>
+<p>Люди демонстрируют наибольшее физическое и социальное разнообразия среди всех народов. Цвет кожи варьируется от тёмной до светлой, и может иметь примеси других оттенков. Цвет глаз обычно приобретает голубой, карий, зелёный, или ореховый тон. Волосы у людей коричневые, чёрные, светлые, или рыжие. Мужчины часто отращивают короткие бороды, а женщины носят длинные волосы. Средний рост людей 1.8 метра, а вес около 80 кг - мужчины заметно выше и тяжелее женщин.</p>
+<h2 id="Регион"><a class="header" href="#Регион">Регион</a></h2>
+<p>Отплывшие вместе с <code>Джайной Праудмур</code> люди прибыли на южный <a href="../../geography/kalimdor.html">Калимдор</a> и основали крепость под названием Терамор - небольшой каменный город окружённый стеной и расположенный на скалистом острове к востоку от <a href="../../geography/kalimdor.html#%D0%9F%D1%8B%D0%BB%D0%B5%D0%B2%D1%8B%D0%B5-%D1%82%D0%BE%D0%BF%D0%B8">Пылевых топей</a>. Остров граничит с <a href="../../geography/kalimdor.html#%D0%94%D1%83%D1%80%D0%BE%D1%82%D0%B0%D1%80">Дуротаром</a>, новой родиной орков на севере. Люди и <a href="../orcs/orcs.html">орки</a> поддерживают неустойчивый мир вдоль границ, но столкновения происходят достаточно часто. Посколько большинство могущественных воинов и магов людей погибли во время войны с <a href="../../history/timeline.html">Пылающим Легионом</a>, на Тераморе осталась лишь горстка опытных магов и паладинов. На острове встречаются <a href="../dwarfes/dwarfes.html">Дварфы Стальгорна</a> и <a href="../highelves/highelves.html">Высшие эльфы</a>, но люди на нём обладают абсолютной властью. Часто на остров прибывают <a href="../goblins/goblins.html">гоблины</a>-торговцы.
+Люди на востоке, на территории бывшего <a href="../../geography/loarderon.html">Лордерона</a> могут похвастаться только небольшими разрозненными поселениями, далеко не такими величественными, как была прежде центральная крепость королевства. <a href="../../geography/loarderon.html#%D0%9F%D1%80%D0%B5%D0%B4%D0%B3%D0%BE%D1%80%D1%8C%D1%8F-%D0%A5%D0%B8%D0%BB%D1%81%D0%B1%D1%80%D0%B0%D0%B4%D0%B0">Хиллсбрад</a> и <a href="../../geography/loarderon.html#%D0%9A%D1%83%D0%BB-%D0%A2%D0%B8%D1%80%D0%B0%D1%81">Кул-тирас</a> в основном находятся под контролем людей, и ещё несколько маленьких деревень всё ещё целы в <a href="../../geography/loarderon.html#%D0%A1%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D1%8F%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D1%80">Серебряном бору</a> и <a href="../../geography/loarderon.html#%D0%90%D0%BB%D1%8C%D1%82%D0%B5%D1%80%D0%B0%D0%BA%D1%81%D0%BA%D0%B8%D0%B5-%D0%B3%D0%BE%D1%80%D1%8B">Альтеракских горах</a>.
+В южной части <a href="../../geography/azeroth.html">Азерота</a> стоит <code>Штормград</code> - пострадавший в Первой и Второй войнах город, оставшийся относительно целым во время Третьей. <code>Штормград</code> полностью восстановлен и можно сказать что здесь империя людей и возрождается из пепла прошлого. Пусть <code>Плеть</code> и не добралась до этих территорий, но это небольшое город-государство сталкнуолось с собственными врагами, как внешними, так и внутренними. Тем не менее, <code>Штормград</code> является сильнейшим оплотом людей и символом возрождения.</p>
+<h2 id="Принадлежность"><a class="header" href="#Принадлежность">Принадлежность</a></h2>
+<p>Альянс. Люди основали Альянс, и он не может существовать без них. Четыре года назад Орда и Альянс объединили свои силы чтобы противостоять <code>Пылающему Легиону</code>, но как только опасность миновала, старое устройство мира вернулось вновь. Не смотря на то, что лидеры Альянса и Орды испытывают уважение друг к другу, старая ненависть всё равно живёт в их сердцах. Кроме <a href="../orcs/orcs.html">орков</a>, люди подозрительно смотрят на <a href="../taurs/taurs.html">тауренов</a> из-за их связи с Ордой.
+В хороших отношениях находятся люди с <a href="../dwarfes/dwarfes.html">дварфами</a> - эта связь только укрепилась в результате последних открытий дварфов. <a href="../highelves/highelves.html">Эльфы</a> и их <a href="../nightelves/nightelves.html">Ночные родичи</a> для людей остаются источником тайн и разочарований, а <a href="../trolls/trolls.html">тролли</a> и <a href="../forsaken/forsaken.html">отрекшиеся</a> видятся большой опасностью.</p>
+<h2 id="Вера"><a class="header" href="#Вера">Вера</a></h2>
+<p>Люди следуют <code>Свету</code>. Эта вера вдохновляет их дарит им цель и волю к победе. В городах и поселениях стоят величественные соборы и небольшие церкви, а священники внутри заботятся о пастве, исцеляют раненных, дают место отдыха уставшим, и идут в бой против сил зла вместе с остальными войнами. При церкви существует орден святых войнов, <code>Паладинов</code>, которые следуют по пути <code>Света</code> и сокрущают злых и хаотичных существ, такие войны полностью преданы защите людского народа.</p>
+<h2 id="Имена"><a class="header" href="#Имена">Имена</a></h2>
+<p>Люди получают имена при рождении, а их фамилии обычно имеют долгую историю и говорят о различном происхождении. Некоторые люди меняют свои фамилии, чтобы подчеркнуть свои достижения при жизни.</p>
+<h3 id="Мужские-имена"><a class="header" href="#Мужские-имена">Мужские имена</a></h3>
+<ul>
+<li>Мерандер</li>
+<li>Гирам</li>
+<li>Даррик</li>
+<li>Херби</li>
+</ul>
+<h3 id="Женские-имена"><a class="header" href="#Женские-имена">Женские имена</a></h3>
+<ul>
+<li>Лилла</li>
+<li>Мериан</li>
+<li>Рашель</li>
+<li>Ами</li>
+</ul>
+<h3 id="Фамилии"><a class="header" href="#Фамилии">Фамилии</a></h3>
+<ul>
+<li>Ренн</li>
+<li>Городощит</li>
+<li>Среброкузн</li>
+<li>Руномаст</li>
+</ul>
+<p><img src="../../images/crests/humancrest.png" class="crest" alt="Герб Людей" title="Герб людей"></p>
+
+                        </main>
+
+                        <nav class="nav-wrapper" aria-label="Page navigation">
+                            <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../goblins/goblinstraits.html" class="mobile-nav-chapters previous" title="Назад" aria-label="Назад" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="humanstraits.html" class="mobile-nav-chapters next" title="Вперёд" aria-label="Вперёд" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                            <div style="clear: both"></div>
+                        </nav>
+                    </div>
+                </div>
+
+                <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../goblins/goblinstraits.html" class="nav-chapters previous" title="Назад" aria-label="Назад" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="humanstraits.html" class="nav-chapters next" title="Вперёд" aria-label="Вперёд" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </nav>
+
+            </div>
+
+            <script src="./../../elasticlunr.js"></script>
+            <script src="./../../mark.js"></script>
+            <script>
+                window.search = {};
+            </script>
+            <script src="./../../searchindex.js"></script>
+            <script src="./../../searcher.js"></script>
+
+            <script src="./../../clipboard.js"></script>
+            <script src="./../../highlight.js"></script>
+            <script src="./../../book.js"></script>
+
+            <!-- Custom JS scripts -->
+
+        </div>
+    </body>
+</html>
